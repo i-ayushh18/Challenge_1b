@@ -1,0 +1,430 @@
+{
+  "metadata": {
+    "input_documents": [
+      "South of France - Cities.pdf",
+      "South of France - Cuisine.pdf",
+      "South of France - History.pdf",
+      "South of France - Restaurants and Hotels.pdf",
+      "South of France - Things to Do.pdf",
+      "South of France - Tips and Tricks.pdf",
+      "South of France - Traditions and Culture.pdf"
+    ],
+    "persona": "Villa La Coste",
+    "job_to_be_done": "set in",
+    "processing_timestamp": "2025-07-24T16:51:13.667305Z",
+    "total_sections_found": 218,
+    "sections_after_filtering": 218,
+    "ranking_strategy": "enhanced_ranking",
+    "processing_time_seconds": 2.280122,
+    "max_results": 15
+  },
+  "extracted_sections": [
+    {
+      "document": "South of France - History.pdf",
+      "page": 1,
+      "section_title": "La Marseillaise",
+      "level": "H3",
+      "importance_rank": 1,
+      "importance_score": 0.4156616527035484,
+      "relevance_factors": {
+        "tfidf_similarity": 0.10373746509220418,
+        "section_length": 0.075,
+        "page_position": 1.0,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "page": 2,
+      "section_title": "Club 55 (Saint-Tropez): This iconic beach club oﬀers a relaxed, family-friendly",
+      "level": "H3",
+      "importance_rank": 2,
+      "importance_score": 0.4113983966475767,
+      "relevance_factors": {
+        "tfidf_similarity": 0.015579324952275165,
+        "section_length": 0.395,
+        "page_position": 0.99,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "page": 1,
+      "section_title": "Fête de la Musique",
+      "level": "H3",
+      "importance_rank": 3,
+      "importance_score": 0.40187650617040915,
+      "relevance_factors": {
+        "tfidf_similarity": 0.06552459875935618,
+        "section_length": 0.09,
+        "page_position": 1.0,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "page": 1,
+      "section_title": "La Ciotat",
+      "level": "H3",
+      "importance_rank": 4,
+      "importance_score": 0.4012588550363252,
+      "relevance_factors": {
+        "tfidf_similarity": 0.07523047092414614,
+        "section_length": 0.045,
+        "page_position": 1.0,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "page": 1,
+      "section_title": "Cannes",
+      "level": "H3",
+      "importance_rank": 5,
+      "importance_score": 0.39908865557779916,
+      "relevance_factors": {
+        "tfidf_similarity": 0.07355497227783125,
+        "section_length": 0.03,
+        "page_position": 1.0,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "page": 8,
+      "section_title": "Theme Parks and Attractions",
+      "level": "H3",
+      "importance_rank": 6,
+      "importance_score": 0.39259788205396595,
+      "relevance_factors": {
+        "tfidf_similarity": 0.04857803846824814,
+        "section_length": 0.135,
+        "page_position": 0.9299999999999999,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "South of France - History.pdf",
+      "page": 1,
+      "section_title": "Old Port (Vieux-Port)",
+      "level": "H3",
+      "importance_rank": 7,
+      "importance_score": 0.3887486053041407,
+      "relevance_factors": {
+        "tfidf_similarity": 0.02895484659368489,
+        "section_length": 0.105,
+        "page_position": 1.0,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "page": 2,
+      "section_title": "Old Port (Vieux-Port)",
+      "level": "H3",
+      "importance_rank": 8,
+      "importance_score": 0.3877486053041407,
+      "relevance_factors": {
+        "tfidf_similarity": 0.02895484659368489,
+        "section_length": 0.105,
+        "page_position": 0.99,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "South of France - History.pdf",
+      "page": 1,
+      "section_title": "Marseille: The Oldest City in France",
+      "level": "H3",
+      "importance_rank": 9,
+      "importance_score": 0.3846666666666667,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.18,
+        "page_position": 1.0,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "South of France - History.pdf",
+      "page": 4,
+      "section_title": "Tour Magne",
+      "level": "H3",
+      "importance_rank": 10,
+      "importance_score": 0.3842251976997437,
+      "relevance_factors": {
+        "tfidf_similarity": 0.038896327582692625,
+        "section_length": 0.05,
+        "page_position": 0.97,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "South of France - History.pdf",
+      "page": 2,
+      "section_title": "Nice: The Jewel of the French Riviera",
+      "level": "H3",
+      "importance_rank": 11,
+      "importance_score": 0.38416666666666666,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.185,
+        "page_position": 0.99,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "page": 3,
+      "section_title": "Must-Visit Restaurants",
+      "level": "H3",
+      "importance_rank": 12,
+      "importance_score": 0.3838082544343616,
+      "relevance_factors": {
+        "tfidf_similarity": 0.02035396941923735,
+        "section_length": 0.11,
+        "page_position": 0.98,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "page": 1,
+      "section_title": "Budget-Friendly Restaurants",
+      "level": "H3",
+      "importance_rank": 13,
+      "importance_score": 0.383780840024988,
+      "relevance_factors": {
+        "tfidf_similarity": 0.009035433395803249,
+        "section_length": 0.135,
+        "page_position": 1.0,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "page": 2,
+      "section_title": "Marseille: The Oldest City in France",
+      "level": "H3",
+      "importance_rank": 14,
+      "importance_score": 0.3836666666666667,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.18,
+        "page_position": 0.99,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "page": 4,
+      "section_title": "Nice: The Jewel of the French Riviera",
+      "level": "H3",
+      "importance_rank": 15,
+      "importance_score": 0.38216666666666665,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.185,
+        "page_position": 0.97,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "South of France - History.pdf",
+      "refined_text": ": Marseille played a significant role during the French Revolution, and the city's volunteers composed the national anthem of France, \"La Marseillaise\"",
+      "page": 1,
+      "level": "H3",
+      "importance_score": 0.4156616527035484
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "refined_text": "atmosphere with a menu featuring fresh seafood and Mediterranean dishes. The beachside location and casual vibe make it perfect for families. Le Safari (Nice): Located in the heart of the old town, this restaurant oﬀers a diverse menu with options for both adults and children. The lively setting and outdoor seating make it a great spot for a family meal. La Table du Marché (Saint-Rémy-de-Provence): A welcoming restaurant with a varied menu that includes kid-friendly options and fresh, local ingredients. The charming setting and friendly staﬀ ensure a pleasant dining experience for families. Le Grill (Decize): A family-friendly restaurant oﬀering a variety of grilled meats and classic French dishes in a casual setting. The relaxed atmosphere and extensive menu cater to all ages. Le Jardin de Benjamin (Lorgues): This restaurant oﬀers a variety of dishes made with fresh, local ingredients. The outdoor seating and kid-friendly menu make it a great spot for families. Le Petit Jardin (Montpellier): A family-friendly restaurant oﬀering a variety of Mediterranean dishes. The outdoor seating and relaxed atmosphere make it a great spot for a family meal. Le Café de la Plage (Arcachon): This beachfront café oﬀers a variety of seafood dishes and kid-friendly options. The relaxed setting and beautiful views make it a great spot for families. Le Petit Nice (Marseille): A family-friendly restaurant oﬀering a variety of seafood dishes. The relaxed setting and fresh ingredients make it a popular choice. Le Jardin des Sens (Montpellier): This restaurant oﬀers a variety of dishes made with fresh, local ingredients. The outdoor seating and kid-friendly menu make it a great spot for families. Le Café des Arts (Nice): A family-friendly café oﬀering a variety of dishes and kid- friendly options. The relaxed setting and friendly service make it a great spot for a family meal.",
+      "page": 2,
+      "level": "H3",
+      "importance_score": 0.4113983966475767
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "refined_text": "Celebrated on June 21st, the Fête de la Musique is a nationwide music festival that originated in France. In the South of France, cities and towns come alive with music, as both amateur and professional musicians perform in streets, squares, and parks. The festival promotes a diverse range of musical genres and encourages community participation. Transhumance Festivals Transhumance, the seasonal migration of livestock to higher pastures, is a tradition that dates back centuries. Although modern transportation has replaced much of the traditional practice, transhumance festivals are still celebrated in many villages, particularly in Saint- Rémy-de-Provence in May. These festivals feature parades of sheep, goats, and cattle,",
+      "page": 1,
+      "level": "H3",
+      "importance_score": 0.40187650617040915
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": ": Try snorkeling in the clear waters around the Île Verte.",
+      "page": 1,
+      "level": "H3",
+      "importance_score": 0.4012588550363252
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": ": Enjoy the sandy beaches and luxury beach clubs along the Boulevard de la Croisette. Menton : Visit the serene beaches and beautiful gardens in this charming town near the Italian border. Water Sports Cannes, Nice, and Saint-Tropez : Try jet skiing or parasailing for a thrill. Toulon : Dive into the underwater world with scuba diving excursions to explore wrecks. Cerbère-Banyuls : Visit the marine reserve for an unforgettable diving experience. Mediterranean Coast : Charter a yacht or join a sailing tour to explore the coastline and nearby islands. Marseille : Go windsurfing or kitesurfing in the windy bays. Port Grimaud : Rent a paddleboard and explore the canals of this picturesque village. La Ciotat : Try snorkeling in the clear waters around the Île Verte.",
+      "page": 1,
+      "level": "H3",
+      "importance_score": 0.39908865557779916
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "Antibes: Visit Marineland for marine shows and an aquarium. Fréjus: Cool oﬀ at Aqualand water park. Villeneuve-Loubet: Enjoy quirky attractions at Le Village des Fous. Monteux: Spend a day at Parc Spirou, a theme park based on the famous comic book character. La Palmyre: Explore the La Palmyre Zoo, home to a wide variety of animals. Cap d'Agde: Have fun at Luna Park, an amusement park with rides and games. Toulouse: Visit the Cité de l'Espace, a space-themed science museum with interactive exhibits. Outdoor Adventures Verdon Gorge: Take a family hike or rent paddle boats to explore the stunning Verdon Gorge. Camargue Natural Park: Explore wetlands with wild horses and flamingos, and enjoy horseback riding, bird watching, and boat tours. Various Locations: Try tree-top adventure parks with zip lines, rope bridges, and climbing challenges. Gorges du Tarn: Go on a family-friendly hike and enjoy the scenic views. Lake Annecy: Rent bikes and ride along the lake's picturesque bike paths. Pyrenees: Take a cable car ride for stunning mountain views and easy hiking trails. Dordogne: Explore the region's caves and prehistoric sites with guided tours suitable for children. Educational Experiences Toulouse: Visit Cité de l'Espace for a space-themed science museum with interactive exhibits, a planetarium, and a replica of the Mir space station.",
+      "page": 8,
+      "level": "H3",
+      "importance_score": 0.39259788205396595
+    },
+    {
+      "document": "South of France - History.pdf",
+      "refined_text": ": The heart of Marseille, the Old Port has been a bustling harbor for over 2,600 years. Today, it is a lively area filled with cafes, restaurants, and markets. Basilica of Notre-Dame de la Garde : This iconic basilica, perched on a hill overlooking the city, oﬀers panoramic views of Marseille and the Mediterranean Sea. Built in the 19th century, it is a symbol of the city's maritime heritage. Fort Saint-Jean : Constructed in the 17th century, this fort guards the entrance to the Old Port. It now houses part of the Museum of European and Mediterranean Civilizations (MuCEM). Le Panier : The oldest district in Marseille, Le Panier is a maze of narrow streets, colorful buildings, and historic landmarks. It's a great place to explore the city's past and enjoy its vibrant culture. Château d'If : Commissioned by King Francis I in 1524, this fortress on the Île d'If became famous as a prison and was immortalized in Alexandre Dumas' novel \"The Count of Monte Cristo\" La Marseillaise : Marseille played a significant role during the French Revolution, and the city's volunteers composed the national anthem of France, \"La Marseillaise\"",
+      "page": 1,
+      "level": "H3",
+      "importance_score": 0.3887486053041407
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": ": The heart of Marseille, the Old Port has been a bustling harbor for over 2,600 years. Today, it is a lively area filled with cafes, restaurants, and markets. Basilica of Notre-Dame de la Garde : This iconic basilica, perched on a hill overlooking the city, oﬀers panoramic views of Marseille and the Mediterranean Sea. Built in the 19th century, it is a symbol of the city's maritime heritage. MuCEM (Museum of European and Mediterranean Civilizations) : This modern museum explores the cultural history of the Mediterranean region through a variety of exhibits and interactive displays. Le Panier : The oldest district in Marseille, Le Panier is a maze of narrow streets, colorful buildings, and historic landmarks. It's a great place to explore the city's past and enjoy its vibrant culture. Local Experiences Boat Trip to the Calanques : Take a boat trip to the Calanques, a series of stunning limestone cliﬀs and coves along the coast. Fish Market at the Old Port : Visit the fish market at the Old Port to experience the local seafood culture. Street Art in Cours Julien : Explore the vibrant street art scene in the Cours Julien district. Cultural Highlights Marseille is known for its vibrant arts scene, with numerous galleries, theaters, and music venues. The city hosts several festivals throughout the year, including the Festival de Marseille, which celebrates contemporary dance, theater, and music. Marseille's cuisine is",
+      "page": 2,
+      "level": "H3",
+      "importance_score": 0.3877486053041407
+    },
+    {
+      "document": "South of France - History.pdf",
+      "refined_text": "Marseille, founded by Greek sailors around 600 BC, is the oldest city in France. Its strategic location on the Mediterranean coast made it a vital trading port throughout history. The city's rich cultural heritage is reflected in its diverse architecture and vibrant atmosphere. Key Historical Sites in Marseille Old Port (Vieux-Port) : The heart of Marseille, the Old Port has been a bustling harbor for over 2,600 years. Today, it is a lively area filled with cafes, restaurants, and markets. Basilica of Notre-Dame de la Garde : This iconic basilica, perched on a hill overlooking the city, oﬀers panoramic views of Marseille and the Mediterranean Sea. Built in the 19th century, it is a symbol of the city's maritime heritage. Fort Saint-Jean : Constructed in the 17th century, this fort guards the entrance to the Old Port. It now houses part of the Museum of European and Mediterranean Civilizations (MuCEM). Le Panier : The oldest district in Marseille, Le Panier is a maze of narrow streets, colorful buildings, and historic landmarks. It's a great place to explore the city's past and enjoy its vibrant culture. Château d'If : Commissioned by King Francis I in 1524, this fortress on the Île d'If became famous as a prison and was immortalized in Alexandre Dumas' novel \"The Count of Monte Cristo\" La Marseillaise : Marseille played a significant role during the French Revolution, and the city's volunteers composed the national anthem of France, \"La Marseillaise\"",
+      "page": 1,
+      "level": "H3",
+      "importance_score": 0.3846666666666667
+    },
+    {
+      "document": "South of France - History.pdf",
+      "refined_text": ": This ancient Roman tower, part of the city's original fortifications, oﬀers panoramic views of Nîmes and the surrounding area Temple of Diana : Located in the Jardins de la Fontaine, this Roman temple's exact purpose remains a mystery, but it is believed to have been a library or a place of worship",
+      "page": 4,
+      "level": "H3",
+      "importance_score": 0.3842251976997437
+    },
+    {
+      "document": "South of France - History.pdf",
+      "refined_text": "Nice, located on the French Riviera, has been a popular destination for centuries. Its history dates back to the ancient Greeks, who founded the city around 350 BC. Nice later became a Roman colony and has since evolved into a glamorous resort town. Key Historical Sites in Nice Castle Hill (Colline du Château) : This hilltop park oﬀers stunning views of Nice and the Mediterranean. It was once the site of a medieval castle, which was destroyed in the 18th century. Promenade des Anglais : This famous seaside promenade was built in the 19th century and named after the English aristocrats who frequented Nice. It's perfect for a leisurely stroll along the coast. Old Town (Vieux Nice) : The historic center of Nice is a labyrinth of narrow streets, baroque churches, and bustling markets. Don't miss the Cours Saleya market, where you can find fresh produce, flowers, and local delicacies. Russian Orthodox Cathedral : Built in the early 20th century, this stunning cathedral reflects the influence of Russian aristocrats who vacationed in Nice. Cimiez : An ancient Roman settlement, Cimiez is home to the ruins of a Roman amphitheater and baths, as well as the Monastery of Cimiez, which oﬀers beautiful gardens and a museum dedicated to the painter Henri Matisse Carnival of Nice : One of the most famous carnivals in France, the Carnival of Nice dates back to 1873 and features elaborate parades, floats, and flower battles",
+      "page": 2,
+      "level": "H3",
+      "importance_score": 0.38416666666666666
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "refined_text": "To truly experience the culinary delights of the South of France, here are some restaurants you should consider visiting: Le Petit Nice Passedat (Marseille): A three-Michelin-starred restaurant oﬀering exquisite seafood dishes and stunning views of the Mediterranean. Chef Gérald Passedat is known for his innovative approach to seafood, creating dishes that are both visually stunning and incredibly flavorful. The restaurant's location on the cliﬀs overlooking the sea adds to the overall dining experience. La Chèvre d'Or (Èze): Located in a medieval village, this two-Michelin-starred restaurant serves refined Provençal cuisine with breathtaking views of the French Riviera. The restaurant's terrace oﬀers panoramic views of the Mediterranean, making it the perfect spot for a romantic dinner. The menu features dishes that highlight the region's fresh, seasonal ingredients. Le Mirazur (Menton): Ranked among the world's best restaurants, Le Mirazur oﬀers a unique dining experience with a focus on fresh, local ingredients and innovative dishes. Chef Mauro Colagreco's cuisine is inspired by the surrounding landscape, with many ingredients sourced from the restaurant's own gardens. The menu changes with the seasons, ensuring that each visit is a new and exciting experience. Chez Pipo (Nice): A local favorite for Socca, this casual eatery is perfect for a quick and delicious snack. Chez Pipo has been serving Socca since 1923 and is a beloved institution in Nice. The restaurant's simple, no-frills approach allows the quality of the Socca to shine through. L'Atelier de Jean-Luc Rabanel (Arles): A Michelin-starred restaurant known for its creative and contemporary take on Provençal cuisine. Chef Jean-Luc Rabanel's dishes are a feast for the senses, combining bold flavors with artistic presentation. The restaurant's tasting menu oﬀers a journey through the flavors of Provence, with each course showcasing the region's finest ingredients. La Table de Plaisance (Saint-Émilion): A two-Michelin-starred restaurant oﬀering a sophisticated menu that highlights the flavors of the region. The restaurant is located in a historic building in the heart of Saint-Émilion, a town known for its world-class wines. The menu features dishes that pair beautifully with the local wines, creating a truly memorable dining experience.",
+      "page": 3,
+      "level": "H3",
+      "importance_score": 0.3838082544343616
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "refined_text": "Chez Pipo (Nice): Famous for its socca, a traditional Niçoise chickpea pancake, this casual eatery oﬀers delicious and aﬀordable local dishes. The rustic ambiance and friendly service make it a favorite among locals and tourists alike. La Merenda (Nice): A small, cozy restaurant serving authentic Niçoise cuisine. The menu changes with the seasons, ensuring fresh and flavorful dishes. Reservations are a must due to its popularity and limited seating. Chez Etienne (Marseille): Known for its simple yet delicious pizzas and grilled meats, this family-owned restaurant is a local favorite. The lively atmosphere and hearty portions make it a great spot for a casual meal. Le Bistrot du Paradou (Paradou): A charming bistro oﬀering a daily fixed menu with hearty Provençal dishes at reasonable prices. The warm, welcoming environment and generous servings make it a must-visit. Le Comptoir du Marché (Nice): This bistro oﬀers a variety of traditional French dishes at aﬀordable prices. The cozy atmosphere and friendly staﬀ make it a great spot for a casual meal. Le Petit Nice (Marseille): A budget-friendly option oﬀering a variety of seafood dishes. The relaxed setting and fresh ingredients make it a popular choice. Le Café de Turin (Nice): Known for its seafood, this café oﬀers a variety of aﬀordable dishes in a lively setting. The fresh oysters are a must-try. Le Panier (Marseille): A casual eatery oﬀering a variety of Mediterranean dishes at reasonable prices. The outdoor seating and friendly service make it a great spot for a relaxed meal. Le Bistrot Gourmand (Cannes): This bistro oﬀers a variety of traditional French dishes at aﬀordable prices. The cozy atmosphere and friendly staﬀ make it a great spot for a casual meal. Le Petit Pontoise (Paris): A charming bistro oﬀering a variety of traditional French dishes at reasonable prices. The cozy atmosphere and friendly service make it a great spot for a casual meal.",
+      "page": 1,
+      "level": "H3",
+      "importance_score": 0.383780840024988
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "History Marseille, founded by Greek sailors around 600 BC, is the oldest city in France. Its strategic location on the Mediterranean coast made it a vital trading port throughout history. The city's rich cultural heritage is reflected in its diverse architecture and vibrant atmosphere. Over the centuries, Marseille has been influenced by various cultures, including Greek, Roman, and North African, making it a melting pot of traditions and customs. Key Attractions Old Port (Vieux-Port) : The heart of Marseille, the Old Port has been a bustling harbor for over 2,600 years. Today, it is a lively area filled with cafes, restaurants, and markets. Basilica of Notre-Dame de la Garde : This iconic basilica, perched on a hill overlooking the city, oﬀers panoramic views of Marseille and the Mediterranean Sea. Built in the 19th century, it is a symbol of the city's maritime heritage. MuCEM (Museum of European and Mediterranean Civilizations) : This modern museum explores the cultural history of the Mediterranean region through a variety of exhibits and interactive displays. Le Panier : The oldest district in Marseille, Le Panier is a maze of narrow streets, colorful buildings, and historic landmarks. It's a great place to explore the city's past and enjoy its vibrant culture. Local Experiences Boat Trip to the Calanques : Take a boat trip to the Calanques, a series of stunning limestone cliﬀs and coves along the coast. Fish Market at the Old Port : Visit the fish market at the Old Port to experience the local seafood culture. Street Art in Cours Julien : Explore the vibrant street art scene in the Cours Julien district. Cultural Highlights Marseille is known for its vibrant arts scene, with numerous galleries, theaters, and music venues. The city hosts several festivals throughout the year, including the Festival de Marseille, which celebrates contemporary dance, theater, and music. Marseille's cuisine is",
+      "page": 2,
+      "level": "H3",
+      "importance_score": 0.3836666666666667
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "History Nice, located on the French Riviera, has been a popular destination for centuries. Its history dates back to the ancient Greeks, who founded the city around 350 BC. Nice later became a Roman colony and has since evolved into a glamorous resort town. In the 19th century, Nice became a favorite winter retreat for European aristocrats, which contributed to its development as a luxurious destination. Key Attractions Promenade des Anglais : This famous seaside promenade, built in the 19th century, is perfect for a leisurely stroll along the coast. It oﬀers stunning views of the Mediterranean and is lined with cafes and hotels. Castle Hill (Colline du Château) : This hilltop park oﬀers panoramic views of Nice and the Mediterranean. It was once the site of a medieval castle, which was destroyed in the 18th century. Old Town (Vieux Nice) : The historic center of Nice is a labyrinth of narrow streets, baroque churches, and bustling markets. Don't miss the Cours Saleya market, where you can find fresh produce, flowers, and local delicacies. Matisse Museum : Dedicated to the works of Henri Matisse, who spent much of his life in Nice, this museum features a comprehensive collection of his paintings, sculptures, and drawings. Hidden Gems Russian Orthodox Cathedral : Visit the stunning Russian Orthodox Cathedral, a unique architectural gem in Nice. Marc Chagall National Museum : Explore the works of Marc Chagall at this dedicated museum. Parc Phoenix : Discover the botanical wonders at Parc Phoenix, a beautiful garden and park. Cultural Highlights Nice is renowned for its vibrant cultural scene, with numerous museums, galleries, and theaters. The city hosts the Nice Carnival in February, one of the largest and oldest carnivals in the world. The Nice Jazz Festival, held in July, is another major event that attracts music",
+      "page": 4,
+      "level": "H3",
+      "importance_score": 0.38216666666666665
+    }
+  ],
+  "document_summaries": [
+    {
+      "name": "South of France - Cities.pdf",
+      "path": "/app/input/South of France - Cities.pdf",
+      "title": "Introduction",
+      "total_headings": 22,
+      "processing_time": 0.23848342895507812,
+      "confidence_score": 0.5,
+      "document_type": "technical"
+    },
+    {
+      "name": "South of France - Cuisine.pdf",
+      "path": "/app/input/South of France - Cuisine.pdf",
+      "title": "Introduction",
+      "total_headings": 7,
+      "processing_time": 0.14762091636657715,
+      "confidence_score": 0.5,
+      "document_type": "document"
+    },
+    {
+      "name": "South of France - History.pdf",
+      "path": "/app/input/South of France - History.pdf",
+      "title": "Introduction",
+      "total_headings": 24,
+      "processing_time": 0.20507144927978516,
+      "confidence_score": 0.5,
+      "document_type": "technical"
+    },
+    {
+      "name": "South of France - Restaurants and Hotels.pdf",
+      "path": "/app/input/South of France - Restaurants and Hotels.pdf",
+      "title": "Introduction",
+      "total_headings": 7,
+      "processing_time": 0.20270943641662598,
+      "confidence_score": 0.5,
+      "document_type": "document"
+    },
+    {
+      "name": "South of France - Things to Do.pdf",
+      "path": "/app/input/South of France - Things to Do.pdf",
+      "title": "Introduction",
+      "total_headings": 68,
+      "processing_time": 0.19771862030029297,
+      "confidence_score": 0.5,
+      "document_type": "technical"
+    },
+    {
+      "name": "South of France - Tips and Tricks.pdf",
+      "path": "/app/input/South of France - Tips and Tricks.pdf",
+      "title": "Introduction",
+      "total_headings": 65,
+      "processing_time": 0.17382431030273438,
+      "confidence_score": 0.5,
+      "document_type": "document"
+    },
+    {
+      "name": "South of France - Traditions and Culture.pdf",
+      "path": "/app/input/South of France - Traditions and Culture.pdf",
+      "title": "Introduction",
+      "total_headings": 25,
+      "processing_time": 0.11644554138183594,
+      "confidence_score": 0.5,
+      "document_type": "document"
+    }
+  ],
+  "dynamic_personas": [
+    "Villa La Coste",
+    "Crafts \nPottery and Ceramics",
+    "them"
+  ],
+  "dynamic_jobs": [
+    "set in",
+    "has tradition with",
+    "Keep them"
+  ]
+}

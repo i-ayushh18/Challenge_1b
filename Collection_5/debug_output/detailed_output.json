@@ -1,0 +1,398 @@
+{
+  "metadata": {
+    "input_documents": [
+      "bioinformatics1.pdf",
+      "bioinformatics2.pdf",
+      "bioinformatics3.pdf",
+      "bioinformatics4.pdf"
+    ],
+    "persona": "(2005)\nElucidating\nmechanisms",
+    "job_to_be_done": "induced",
+    "processing_timestamp": "2025-07-24T16:54:57.520677Z",
+    "total_sections_found": 145,
+    "sections_after_filtering": 145,
+    "ranking_strategy": "enhanced_ranking",
+    "processing_time_seconds": 10.733027,
+    "max_results": 15
+  },
+  "extracted_sections": [
+    {
+      "document": "bioinformatics3.pdf",
+      "page": 11,
+      "section_title": "60. Zagidullin B, Wang Z, Guan Y, 42. Di Veroli GY, Fornari C, Wang D,",
+      "level": "H2",
+      "importance_rank": 1,
+      "importance_score": 0.42500000000000004,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.35,
+        "page_position": 0.9,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "bioinformatics3.pdf",
+      "page": 10,
+      "section_title": "20. O’Neil J, Benita Y, Feldman I,",
+      "level": "H2",
+      "importance_rank": 2,
+      "importance_score": 0.42148687052572875,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0337171763143219,
+        "section_length": 0.17,
+        "page_position": 0.91,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "bioinformatics3.pdf",
+      "page": 10,
+      "section_title": "22. Liu H, Zhang W, Zou B, 2. Zhao S, Nishimura T, Chen Y,",
+      "level": "H2",
+      "importance_rank": 3,
+      "importance_score": 0.42000000000000004,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.29,
+        "page_position": 0.91,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "bioinformatics1.pdf",
+      "page": 6,
+      "section_title": "6.1 Prediction of polypharmacy side effects",
+      "level": "H2",
+      "importance_rank": 4,
+      "importance_score": 0.4165,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.215,
+        "page_position": 0.95,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "bioinformatics3.pdf",
+      "page": 11,
+      "section_title": "36. Sun Z, Huang S, Jiang P, 55. Tang F, Li S, Liu D,",
+      "level": "H2",
+      "importance_rank": 5,
+      "importance_score": 0.4165,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.265,
+        "page_position": 0.9,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "bioinformatics4.pdf",
+      "page": 7,
+      "section_title": "0.9220 as max accuracy and 0.9211 as average accuracy. The proposed model outperforms the existing DDI event",
+      "level": "H3",
+      "importance_rank": 6,
+      "importance_score": 0.41466666666666674,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.54,
+        "page_position": 0.94,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "bioinformatics1.pdf",
+      "page": 7,
+      "section_title": "7.1 Drug combination modeling Figure 4",
+      "level": "H2",
+      "importance_rank": 7,
+      "importance_score": 0.41300000000000003,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.19,
+        "page_position": 0.94,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "bioinformatics3.pdf",
+      "page": 11,
+      "section_title": "63. Ontong JC, Ozioma NF, Voravuthikunchai SP, 45. Cheng L, Li L. Systematic quality control analysis of lincs",
+      "level": "H3",
+      "importance_rank": 8,
+      "importance_score": 0.41166666666666674,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.55,
+        "page_position": 0.9,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "bioinformatics3.pdf",
+      "page": 10,
+      "section_title": "19. Barretina J, Caponigro G, Stransky N,",
+      "level": "H2",
+      "importance_rank": 9,
+      "importance_score": 0.4115,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.205,
+        "page_position": 0.91,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "bioinformatics4.pdf",
+      "page": 2,
+      "section_title": "Step 1: Integrating data sources and extracting embedding vectors (final feature vectors):",
+      "level": "H3",
+      "importance_rank": 10,
+      "importance_score": 0.41066666666666674,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.45,
+        "page_position": 0.99,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "bioinformatics3.pdf",
+      "page": 10,
+      "section_title": "23. Sałat R, Sałat K. The application of support vector regression",
+      "level": "H3",
+      "importance_rank": 11,
+      "importance_score": 0.40852763952340043,
+      "relevance_factors": {
+        "tfidf_similarity": 0.04465243214183444,
+        "section_length": 0.33,
+        "page_position": 0.91,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "bioinformatics1.pdf",
+      "page": 1,
+      "section_title": "1.1 Present study",
+      "level": "H2",
+      "importance_rank": 12,
+      "importance_score": 0.4085,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.085,
+        "page_position": 1.0,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "bioinformatics3.pdf",
+      "page": 10,
+      "section_title": "8. Vitiello PP, Martini G, Mele L,",
+      "level": "H2",
+      "importance_rank": 13,
+      "importance_score": 0.40800000000000003,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.17,
+        "page_position": 0.91,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "bioinformatics3.pdf",
+      "page": 11,
+      "section_title": "61. Akhtar MJ. Covid19 inhibitors: a prospective therapeutics. 43. Ramsundar B, Eastman P, Walters P,",
+      "level": "H3",
+      "importance_rank": 14,
+      "importance_score": 0.4071666666666667,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.505,
+        "page_position": 0.9,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "bioinformatics3.pdf",
+      "page": 11,
+      "section_title": "53. Ye L, Mayerle J, Ziesch A,",
+      "level": "H2",
+      "importance_rank": 15,
+      "importance_score": 0.405,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.15,
+        "page_position": 0.9,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "bioinformatics3.pdf",
+      "refined_text": "60. Zagidullin B, Wang Z, Guan Y, 42. Di Veroli GY, Fornari C, Wang D,",
+      "page": 11,
+      "level": "H2",
+      "importance_score": 0.42500000000000004
+    },
+    {
+      "document": "bioinformatics3.pdf",
+      "refined_text": "et al. An unbiased oncology compound screen to identify novel combination strategies. Mol Cancer Ther 2016; 15 (6): 1155–62. 21. Menden MP, Wang D, Mason MJ, et al. Community assess- ment to advance computational prediction of cancer drug combinations in a pharmacogenomic screen. Nat Commun 2019; 10 (1): 1–17. 22. Liu H, Zhang W, Zou B, et al. Drugcombdb: a comprehen- sive database of drug combinations toward the discovery of combinatorial therapy. Nucleic Acids Res 2020; 48 (D1): D871–81. 23. Sałat R, Sałat K. The application of support vector regression for prediction of the antiallodynic effect of drug combina- tions in the mouse model of streptozocin-induced diabetic neuropathy. Comput Methods Programs Biomed 2013; 111 330–7. 24. Qi Y. Random forest for bioinformatics. In: Ensemble machine learning . Springer, 2012, 307–23. 25. Liu H, Zhang W, Nie L, et al. Predicting effective drug com- binations using gradient tree boosting based on features extracted from drug-protein heterogeneous network. BMC bioinformatics 2019; 20 (1): 1–12. 26. Preuer K, Lewis RPI, Hochreiter S, et al. Deepsynergy: predict- ing anti-cancer drug synergy with deep learning. Bioinformat- ics 2018; 34 (9): 1538–46. 27. Liu Q, Xie L. Transynergy: Mechanism-driven interpretable deep neural network for the synergistic prediction and path- Downloaded from https://academic.oup.com/bib/article/23/1/bbab390/6375262 by guest on 21 July 2025",
+      "page": 10,
+      "level": "H2",
+      "importance_score": 0.42148687052572875
+    },
+    {
+      "document": "bioinformatics3.pdf",
+      "refined_text": "22. Liu H, Zhang W, Zou B, 2. Zhao S, Nishimura T, Chen Y,",
+      "page": 10,
+      "level": "H2",
+      "importance_score": 0.42000000000000004
+    },
+    {
+      "document": "bioinformatics1.pdf",
+      "refined_text": "We start by comparing the performance of Decagon to alternative approaches. From results in Table 2 , we see that considering the multimodal network representation and modeling a large number of different side effects allows Decagon to outperform other approaches by a large margin. Across 964 side effect types, Decagon outperforms alternative approaches by 19.7% (AUROC), 22.0% (AUPRC) and 36.3% (AP@50). Decagon ’s improvement is especially pronounced relative to tensor factorization methods, where Decagon surpasses tensor-based methods by up to 68.7% (AP@50). This finding highlights a potential limitation of directly optimizing a tensor decom- position [i.e. vanilla RESCAL and DEDICOM ( Nickel et al. , 2011 Papalexakis et al. , 2017 )] without relying on a graph-structured convo- lutional encoder. We also compared Decagon with two other methods Perozzi et al. , 2014 Zong et al. , 2017 ), which we adapted for a multi- relational link prediction task. We observe that DeepWalk neural embeddings and Concatenated drug features achieve a gain of 9.0% (AUROC) and a 20.1% gain (AUPRC) over tensor-based methods. However, these approaches employ a two-stage pipeline, consisting of a drug feature extraction model and a link prediction model, both of which are trained separately. Furthermore, they cannot consider inter- dependence of different side effects that we showed to contain useful information (Section 3). These additional modeling insights, give Decagon a 22.0% gain over DeepWalk neural embeddings, and a 12.8% gain over Concatenated drug features in AP@50 scores. These findings are aligned with results that predictions can often be significantly improved by end-to-end learning and specifically using graph auto-encoders ( Hamilton et al. , 2017a Kipf and Welling, 2016 ). In particular, tensor decomposition and neural embedding baseline approaches allow us to quantify what percent- age of the performance improvement is due to the embeddings (i.e. Decagon ’s encoder) and what percentage is due to the multitask learning (i.e. Decagon ’s decoder). To better understand Decagon ’s performance we stratify the aggregated statistics in Table 2 by side effect type. Manual examin- ation of the results and a discussion with domain experts reveals a common property of best performing side effects in Table 3 . We ob- serve that Decagon models particularly well side effects with strong apparent molecular underpinnings. This observation is consistent with our expectation because Decagon ’s multimodal graph ( Fig. 1 contains predominantly pharmacogenomic information. We also observed that side effects with the worst performance tend to be common side effects and/or have non-molecular origins with potentially important environmental and behavioral components Table 3 ). Decagon ’s competitive performance on those side effects can be explained by effective sharing of model parameters across dif- ferent types of side effects. 6.2 Investigation of Decagon ’s novel predictions Next, we perform a literature-based evaluation of new hits. Our goal is to evaluate the quality of novel Decagon ’s predictions about relationships between side effects and drug pairs. To this aim, we ask Decagon to make a prediction for every drug pair and every side effect type in the dataset. We then use these predictions to construct a ranked list of (drug , side effect type , drug ) triples, where the Table 2. Area under ROC curve (AUROC), area under precision-re- call curve (AUPRC) and average precision at 50 (AP@50) for poly- pharmacy side effect prediction Approach AUROC AUPRC AP@50 Decagon 0.872 0.832 0.803 RESCAL tensor factorization 0.693 0.613 0.476 DEDICOM tensor factorization 0.705 0.637 0.567 DeepWalk neural embeddings 0.761 0.737 0.658 Concatenated drug features 0.793 0.764 0.712 Note : Reported are average performance values for 964 side effect types. Table 3. Side effects with the best and worst performance in Decagon Best performing side effects AUPRC Worst performing side effects AUPRC Mumps 0.964 Bleeding 0.679 Carbuncle 0.949 Increased body temp. 0.680 Coccydynia 0.943 Emesis 0.693 Tympanic membrane perfor. 0.941 Renal disorder 0.694 Dyshidrosis 0.938 Leucopenia 0.695 Spondylosis 0.929 Diarrhea 0.705 Schizoaffective disorder 0.919 Icterus 0.707 Breast dysplasia 0.918 Nausea 0.711 Ganglion 0.909 Itch 0.712 Uterine polyp 0.908 Anaemia 0.712 Modeling polypharmacy side effects with graph convolutional networks i463 Downloaded from https://academic.oup.com/bioinformatics/article/34/13/i457/5045770 by guest on 21 July 2025",
+      "page": 6,
+      "level": "H2",
+      "importance_score": 0.4165
+    },
+    {
+      "document": "bioinformatics3.pdf",
+      "refined_text": "36. Sun Z, Huang S, Jiang P, 55. Tang F, Li S, Liu D,",
+      "page": 11,
+      "level": "H2",
+      "importance_score": 0.4165
+    },
+    {
+      "document": "bioinformatics4.pdf",
+      "refined_text": "prediction method. Also, we implement the model on each similarity matrix separately. Then we implement it on a combination of similarity matrices and report the results of predicting drug events. Further, we discuss the influence of using different hyperparameters in the model performance. We discuss utilizing various drug embedding dimensions and methods of integrating drug embedding vectors. In conclusion, employing the attributed heterogeneous network embedding method can provide better drug representation in different drug interaction types and lead to better model performance. Also, using an effec- tive aggregation schema and implementing a fully connected sub-networks framework can provide a powerful method to integrate various drug features. Furthermore, the experimental results indicate that this model out- performs the existing approaches. We can use the PU Learning strategy for future work to enhance the network positive samples by classifying the unlabeled data. Also, we can use a new approach to consider new drugs in the DDI event prediction process. Materials and methods In this work, we propose a framework of two stages that combines several drug features to predict DDI-associated events, using attributed heterogeneous networks representation and aggregation schema with multiple deep neural networks. Firstly, it generates drug embedding from attributed heterogeneous networks using a GNN model. Next, it aggregates the feature vectors and uses multiple deep neural networks for DDI event prediction. Data collection. The data used in this research is derived from the study of Deng et al. . Researchers in this study obtained and cleaned the required data from reputable databases such as ­ DrugBank and ­ KEGG . This dataset includes four types of property or feature matrices for drugs: Chemical structure, Target, Enzyme, and Pathway. We obtained the pathway matrix from DrugBank and KEGG databases. But the rest of the matrices were collected from the DrugBank database. Each column in the features matrices represents the drugs. The rows represent specific drug properties (For example, the number of Enzyme types). The values of one and zero for each entity indicate the presence/absence of a specific property, respectively (for example, a certain enzyme for a particular drug). The dataset provides a drug-drug edge list that includes 65 types of drug-drug relationships. The drug rela- tionship refers to drug interactions. This database displayed drug interaction events as a quadruple structure: (drug A, drug B, mechanism, action). \"Mechanism\" means the effect of drugs in terms of metabolism, therapeutic effect, etc. \"Action\" indicates an increase or decrease in the effects. We employ the first two sections as an edge list of drug interactions and the second two sections as an interaction type or so-called event. The distribution of these events is not even, so the data is unbalanced. Figure shows the distribution of the samples between events in the dataset. Therefore, the model under-fits simply in training, which is one of the main difficulties in this dataset. We use the edge list of DDI and one of the feature matrices to construct an Attributed Heterogene- ous Graph. In this graph, the nodes refer to drugs and the links between them indicate 65 types of interactions. Table shows a summary of these matrices. The first step of the proposed method. In the first stage of this approach, after preparing the attributed heterogeneous graph of drugs and feature matrices, we start the embedding process for each drug in each event type. At the end of this process, we will have an embedding matrix. In this matrix, each vector represents the embedding of that drug in a particular event type. Figure shows a view of the first step of the method. Next, we discussed the details of each step in this phase. Collect data and construct similarity matrices. Firstly, we collect five adjacency matrices from the information sources. A drug-drug matrix shows the interaction between two drugs and their event type. The feature matrices (drug-enzyme, drug-target, Drug–Chemical structure and drug-pathway) indicate the relationship between the Figure 7. The difference in the number of samples between events.",
+      "page": 7,
+      "level": "H3",
+      "importance_score": 0.41466666666666674
+    },
+    {
+      "document": "bioinformatics1.pdf",
+      "refined_text": "7.1 Drug combination modeling Figure 4",
+      "page": 7,
+      "level": "H2",
+      "importance_score": 0.41300000000000003
+    },
+    {
+      "document": "bioinformatics3.pdf",
+      "refined_text": "63. Ontong JC, Ozioma NF, Voravuthikunchai SP, 45. Cheng L, Li L. Systematic quality control analysis of lincs",
+      "page": 11,
+      "level": "H3",
+      "importance_score": 0.41166666666666674
+    },
+    {
+      "document": "bioinformatics3.pdf",
+      "refined_text": "et al. The cancer cell line encyclopedia enables predictive modelling of anticancer drug sensitivity. Nature 2012; 483 (7391): 603–7. 20. O’Neil J, Benita Y, Feldman I, et al. An unbiased oncology compound screen to identify novel combination strategies. Mol Cancer Ther 2016; 15 (6): 1155–62. 21. Menden MP, Wang D, Mason MJ, et al. Community assess- ment to advance computational prediction of cancer drug combinations in a pharmacogenomic screen. Nat Commun 2019; 10 (1): 1–17. 22. Liu H, Zhang W, Zou B, et al. Drugcombdb: a comprehen- sive database of drug combinations toward the discovery of combinatorial therapy. Nucleic Acids Res 2020; 48 (D1): D871–81.",
+      "page": 10,
+      "level": "H2",
+      "importance_score": 0.4115
+    },
+    {
+      "document": "bioinformatics4.pdf",
+      "refined_text": "Gathering drug data and calculating similarity matrices for each drug feature. Building an attributed heterogeneous graph as an Integration graph. Calculating drug embedding matrices by embedding an attributed heterogeneous graph using a new GNN model. Step 2: Predicting Drug–Drug Interactions (DDI) types: Reducing the dimensions of the matrix obtained from the previous step in the embedding process by merging the drug embedding vectors for each interaction type. Creating matrices of drug pairs by Integrating the embedding vectors of each drug pairs. Finally, the above vectors are given as input to a deep learning network to predict the type of drugs interac- tion. Experiments and results Evaluation metrics. There are two main tasks in DDI prediction, first is identifying the interactions among the drugs. The second is to determine what kind of interaction is between drugs. In this article, we employ k-fold cross-validation to evaluate the DDI prediction task. We randomly split the known drug-drug interactions into subsets of equal size. Here we use fivefold (5-CV). In each fold, we use one subset as the testing set and keep the rest for training. Here, we utilize different evaluation metrics to measure the prediction model performances. Our task is the multi-class classification work. We use accuracy (ACC), Area Under the Precision-Recall-Curve (AUPR), area under the ROC curve (AUC), F1 score and Precision and Recall as the evaluation metrics. We use micro metrics for AUPR and AUC and macro metrics for the others. The micro-scale studies the classes individually, but the macro-scale interacts with the sum or the whole, so the calculation is general. The difference between macro and micro scales is that the macro scale weighs all classes equally, while the micro-scale weighs each sample equally. If the number of samples is equal for each class, the micro and macro scales will have the same score. Here in this multi-class problem, micro-Precision, micro-Recall and micro-F1 are equal to accuracy. Parameter setting. In this section, we discuss the effect of using different values for hyperparameters that influences the performance of the proposed model. The model consists of two stages. Therefore, we discuss embedding dimensions in the first stage and vector integration methods in the second stage. Effect of embedding dimension size. Here, we evaluate the model performance using different sizes for embed- ding dimensions of the drugs. Figure shows the performance of using different values for embedding dimen- sions. We found that the model with a vector size of 32 led to the best accuracy, which is probably due to the better representation of drugs. The embedding dimension with size 16 also shows good performance and is less time-consuming. Nevertheless, it achieves lower accuracy. The effect of different integrating schema in terms of the model’s accuracy. In this section, we discuss the effect of using different integration schemas of drug vectors. Integrating various features effectively is a difficult task because the drug features might be correlated and redundant. However, directly merging diverse feature vec- tors is a familiar strategy, but we need a more effective framework for aggregating the features. We test several aggregation schemas and choose the best one for the task. According to Table . the integration schema (a) shows better performance and achieves the best accuracy. This schema combines each drug embedding vector in all event types (interaction types) using (np.concatenate) as explained in the Eq. ( ). Figure 1. The effect of different values for embedding dimension in terms of model’s accuracy.",
+      "page": 2,
+      "level": "H3",
+      "importance_score": 0.41066666666666674
+    },
+    {
+      "document": "bioinformatics3.pdf",
+      "refined_text": "for prediction of the antiallodynic effect of drug combina- tions in the mouse model of streptozocin-induced diabetic neuropathy. Comput Methods Programs Biomed 2013; 111 330–7. 24. Qi Y. Random forest for bioinformatics. In: Ensemble machine learning . Springer, 2012, 307–23. 25. Liu H, Zhang W, Nie L, et al. Predicting effective drug com- binations using gradient tree boosting based on features extracted from drug-protein heterogeneous network. BMC bioinformatics 2019; 20 (1): 1–12. 26. Preuer K, Lewis RPI, Hochreiter S, et al. Deepsynergy: predict- ing anti-cancer drug synergy with deep learning. Bioinformat- ics 2018; 34 (9): 1538–46. 27. Liu Q, Xie L. Transynergy: Mechanism-driven interpretable deep neural network for the synergistic prediction and path- Downloaded from https://academic.oup.com/bib/article/23/1/bbab390/6375262 by guest on 21 July 2025",
+      "page": 10,
+      "level": "H3",
+      "importance_score": 0.40852763952340043
+    },
+    {
+      "document": "bioinformatics1.pdf",
+      "refined_text": "Here, we develop Decagon , a method for predicting side effects of drug pairs. We model the problem by constructing a large two-layer multimodal graph of protein–protein interactions, drug–protein inter- actions and drug–drug interactions (i.e. side effects; Fig. 1 ). Each drug–drug interaction is labeled by a different edge type, which signifies the type of the side effect. We then develop a new multirela- tional edge prediction model that uses the multimodal graph to pre- dict drug–drug interactions as well as their types. Our model is a convolutional graph neural network that operates in a multirelational setting. To motivate our model, we first perform exploratory analysis leading to two important observations (Section 3). First, we find that co-prescribed drugs (i.e. drug combinations) tend to have more target proteins in common than random drug pairs, suggesting that drug-target protein information contains valuable information for drug combination modeling. Second, we find that it is important to consider a map of protein–protein interactions in order to be able to model characteristics of drugs with common side effects. These observations motivate the development of Decagon to make predictions about which drug pairs will interact and what will the exact type of the interaction/side effect be (Section 4). Decagon develops new graph auto-encoder approach Hamilton et al. , 2017a ), which allows us to develop an end-to-end trainable model for link prediction on a multimodal graph. In con- trast, previous graph-based approaches for link prediction tasks in biology (e.g. Chen et al. 2016 b; Huang et al. 2014b Zong et al. 2017 ) employ a two-stage pipeline, typically consisting of a graph feature extraction model and a link prediction model, both of which are trained separately. Furthermore, the crucial distinguishing char- acteristic of Decagon is the multirelational link prediction ability allowing us to capture the interdependence of different edge (side ef- fect) types, and to identify which out of all possible edge types exist between any two drug nodes in the graph. This is in sharp contrast with approaches for simple link prediction ( Trouillon et al. , 2016 ), which predict only existence of edges between node pairs, and is also critical for modeling a large number of different edge/side effect types. We contrast Decagon ’s performance with that of state-of-the-art approaches for multirelational tensor factorization ( Nickel et al. 2011 Papalexakis et al. , 2017 ), approaches for representation learn- ing on graphs ( Perozzi et al. , 2014 Zong et al. , 2017 ) and estab- lished machine learning methods for link prediction, which we adapted for the polypharmacy side effect prediction task. Decagon outperforms alternative approaches by up to 69% and leads to a 20% average gain in predictive performance, with larger gains achieved on side effect types that have a strong molecular basis (Section 6). For several novel predictions we find supporting evi- dence in the biomedical literature, suggesting that Decagon per- forms especially well at identifying predictions that are highly likely Drug Protein Gastrointestinal bleed side effect Bradycardia side effect Protein-protein interaction Drug-protein interaction Polypharmacy side effects Ciprofloxacin Simvastatin Doxycycline Mupirocin Node feature vector Fig. 1. An example graph of polypharmacy side effects derived from genomic and patient population data. A multimodal graph consists of protein–protein inter- actions, drug–protein targets and drug–drug interactions encoded by 964 different polypharmacy side effects (i.e. edge types 964). Side information is integrated into the model in the form of additional protein and drug feature vec- tors. Highlighted network neighbors of Ciproﬂoxacin (node ) indicate this drug targets four proteins and interacts with three other drugs. The graph encodes in- formation that Ciproﬂoxacin (node ) taken together with Doxycycline (node ) or with Simvastatin (node ) increases the risk of bradycardia side effect (side effect type ), and its combination with Mupirocin ( ) increases the risk of gastrointes- tinal bleed side effect . We use the graph representation to develop Decagon , a graph convolutional neural model of polypharmacy side effects. Decagon predicts associations between pairs of drugs and side effects (shown in red) with the goal of identifying side effects, which cannot be attributed to either individual drug in the pair i458 M.Zitnik et al. Downloaded from https://academic.oup.com/bioinformatics/article/34/13/i457/5045770 by guest on 21 July 2025",
+      "page": 1,
+      "level": "H2",
+      "importance_score": 0.4085
+    },
+    {
+      "document": "bioinformatics3.pdf",
+      "refined_text": "et al. Vulnerability to low-dose combination of irinotecan and niraparib in atm-mutated colorectal cancer. J Exp Clin Cancer Res 2021; 40 (1): 1–15. 9. Liu T, Yacoub R, Taliaferro-Smith LTD, et al. Combinatorial effects of lapatinib and rapamycin in triple-negative breast cancer cells. Mol Cancer Ther 2011; 10 (8): 1460–9. 10. Azam F, Vazquez A. Trends in phase ii trials for cancer therapies. Cancer 2021; 13 (2): 178. 11. Li P, Huang C, Yingxue F, et al. Large-scale exploration and analysis of drug combinations. Bioinformatics 2015; 31 (12): 2007–16. 12. Hertzberg RP, Pope AJ. High-throughput screening: new tech- nology for the 21st century. Curr Opin Chem Biol 2000; 445–51. 13. Bajorath J. Integration of virtual and high-throughput screening. Nat Rev Drug Discov 2002; (11): 882–94. 14. Macarron R, Banks MN, Bojanic D, et al. Impact of high- throughput screening in biomedical research. Nat Rev Drug Discov 2011; 10 (3): 188–95. 15. Torres NP, Lee AY, Giaever G, et al. A high-throughput yeast assay identifies synergistic drug combinations. Assay Drug Dev Technol 2013; 11 (5): 299–307. 16. Ferreira D, Adega F, Chaves R. The importance of cancer cell lines as in vitro models in cancer methylome analysis and anticancer drugs testing. Oncogenomics and cancer proteomics- novel approaches in biomarkers discovery and therapeutic targets in cancer 2013;139–66. 17. Kragh KN, Gijón D, Maruri A, et al. Effective antimicro- bial combination in vivo treatment predicted with microc- alorimetry screening. Journal of Antimicrobial Chemotherapy 2021. 18. Potekhina ES, Bass DY, Kelmanson IV, et al. Drug screening with genetically encoded fluorescent sensors: Today and tomorrow. Int J Mol Sci 2021; 22 (1): 148. 19. Barretina J, Caponigro G, Stransky N, et al. The cancer cell line encyclopedia enables predictive modelling of anticancer drug sensitivity. Nature 2012; 483 (7391): 603–7. 20. O’Neil J, Benita Y, Feldman I, et al. An unbiased oncology compound screen to identify novel combination strategies. Mol Cancer Ther 2016; 15 (6): 1155–62. 21. Menden MP, Wang D, Mason MJ, et al. Community assess- ment to advance computational prediction of cancer drug combinations in a pharmacogenomic screen. Nat Commun 2019; 10 (1): 1–17. 22. Liu H, Zhang W, Zou B, et al. Drugcombdb: a comprehen- sive database of drug combinations toward the discovery of combinatorial therapy. Nucleic Acids Res 2020; 48 (D1): D871–81. 23. Sałat R, Sałat K. The application of support vector regression for prediction of the antiallodynic effect of drug combina- tions in the mouse model of streptozocin-induced diabetic neuropathy. Comput Methods Programs Biomed 2013; 111 330–7. 24. Qi Y. Random forest for bioinformatics. In: Ensemble machine learning . Springer, 2012, 307–23. 25. Liu H, Zhang W, Nie L, et al. Predicting effective drug com- binations using gradient tree boosting based on features extracted from drug-protein heterogeneous network. BMC bioinformatics 2019; 20 (1): 1–12. 26. Preuer K, Lewis RPI, Hochreiter S, et al. Deepsynergy: predict- ing anti-cancer drug synergy with deep learning. Bioinformat- ics 2018; 34 (9): 1538–46. 27. Liu Q, Xie L. Transynergy: Mechanism-driven interpretable deep neural network for the synergistic prediction and path- Downloaded from https://academic.oup.com/bib/article/23/1/bbab390/6375262 by guest on 21 July 2025",
+      "page": 10,
+      "level": "H2",
+      "importance_score": 0.40800000000000003
+    },
+    {
+      "document": "bioinformatics3.pdf",
+      "refined_text": "61. Akhtar MJ. Covid19 inhibitors: a prospective therapeutics. 43. Ramsundar B, Eastman P, Walters P,",
+      "page": 11,
+      "level": "H3",
+      "importance_score": 0.4071666666666667
+    },
+    {
+      "document": "bioinformatics3.pdf",
+      "refined_text": "et al. The pi3k inhibitor copan- lisib synergizes with sorafenib to induce cell death in hepatocellular carcinoma. Cell death discovery 2019; 1–12. 54. D’Alessandro R, Refolo MG, Lippolis C, et al. Modula- tion of regorafenib effects on hcc cell lines by epider- mal growth factor. Cancer Chemother Pharmacol 2015; 75 1237–45. 55. Tang F, Li S, Liu D, et al. Sorafenib sensitizes melanoma cells to vemurafenib through ferroptosis. Transl Cancer Res 2020; (3): 1584. 56. Zhang W-J, Li Y, Wei M-N, et al. Synergistic antitumor activity of regorafenib and lapatinib in preclinical models of human colorectal cancer. Cancer Lett 2017; 386 :100–9. 57. Lin X, Quan Z, Wang Z-J, et al. Kgnn: Knowledge graph neural network for drug-drug interaction prediction. In: IJCAI , Vol. 380 , 2020, 2739–45. 58. Zheng S, Rao J, Song Y, et al. Pharmkg: a dedicated knowledge graph benchmark for bomedical data mining. Brief Bioinform 2021; 22 (4):bbaa344. 59. Thafar MA, Olayan RS, Ashoor H, et al. Dtigems : drug– target interaction prediction using graph embedding, graph mining, and similarity-based techniques. J Chem 2020; 12 1–17. 60. Zagidullin B, Wang Z, Guan Y, et al. Comparative analysis of molecular representations in prediction of drug combi- nation effects bioRxiv. 2021. 61. Akhtar MJ. Covid19 inhibitors: a prospective therapeutics. Bioorg Chem 2020; 101 :104027. 62. Pereira TC, deMenezes RT, deOliveira HC, et al. In vitro synergistic effects of fluoxetine and paroxetine in combina- tion with amphotericin b against cryptococcus neoformans. Pathogens and Disease 2021. 63. Ontong JC, Ozioma NF, Voravuthikunchai SP, et al. Syn- ergistic antibacterial effects of colistin in combination with aminoglycoside, carbapenems, cephalosporins, fluo- roquinolones, tetracyclines, fosfomycin, and piperacillin on multidrug resistant klebsiella pneumoniae isolates. Plos one 2021; 16 (1):e0244673. Downloaded from https://academic.oup.com/bib/article/23/1/bbab390/6375262 by guest on 21 July 2025",
+      "page": 11,
+      "level": "H2",
+      "importance_score": 0.405
+    }
+  ],
+  "document_summaries": [
+    {
+      "name": "bioinformatics1.pdf",
+      "path": "/app/input/bioinformatics1.pdf",
+      "title": "",
+      "total_headings": 31,
+      "processing_time": 1.9476935863494873,
+      "confidence_score": 0.5,
+      "document_type": "academic"
+    },
+    {
+      "name": "bioinformatics2.pdf",
+      "path": "/app/input/bioinformatics2.pdf",
+      "title": "prediction",
+      "total_headings": 16,
+      "processing_time": 1.6653754711151123,
+      "confidence_score": 0.5,
+      "document_type": "academic"
+    },
+    {
+      "name": "bioinformatics3.pdf",
+      "path": "/app/input/bioinformatics3.pdf",
+      "title": "Motivation:",
+      "total_headings": 67,
+      "processing_time": 1.5952110290527344,
+      "confidence_score": 0.5,
+      "document_type": "academic"
+    },
+    {
+      "name": "bioinformatics4.pdf",
+      "path": "/app/input/bioinformatics4.pdf",
+      "title": "OPEN",
+      "total_headings": 31,
+      "processing_time": 1.7509715557098389,
+      "confidence_score": 0.5,
+      "document_type": "academic"
+    }
+  ],
+  "dynamic_personas": [
+    "(2005)\nElucidating\nmechanisms",
+    "Sij",
+    "et"
+  ],
+  "dynamic_jobs": [
+    "induced"
+  ]
+}

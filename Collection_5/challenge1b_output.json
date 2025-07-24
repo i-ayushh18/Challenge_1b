@@ -1,0 +1,72 @@
+{
+    "metadata": {
+        "input_documents": [
+            "bioinformatics1.pdf",
+            "bioinformatics2.pdf",
+            "bioinformatics3.pdf",
+            "bioinformatics4.pdf"
+        ],
+        "persona": "(2005)\nElucidating\nmechanisms",
+        "job_to_be_done": "induced",
+        "processing_timestamp": "2025-07-24T16:54:57.520677Z"
+    },
+    "extracted_sections": [
+        {
+            "document": "bioinformatics3.pdf",
+            "section_title": "60. Zagidullin B, Wang Z, Guan Y, 42. Di Veroli GY, Fornari C, Wang D,",
+            "importance_rank": 1,
+            "page_number": 11
+        },
+        {
+            "document": "bioinformatics3.pdf",
+            "section_title": "20. O’Neil J, Benita Y, Feldman I,",
+            "importance_rank": 2,
+            "page_number": 10
+        },
+        {
+            "document": "bioinformatics3.pdf",
+            "section_title": "22. Liu H, Zhang W, Zou B, 2. Zhao S, Nishimura T, Chen Y,",
+            "importance_rank": 3,
+            "page_number": 10
+        },
+        {
+            "document": "bioinformatics1.pdf",
+            "section_title": "6.1 Prediction of polypharmacy side effects",
+            "importance_rank": 4,
+            "page_number": 6
+        },
+        {
+            "document": "bioinformatics3.pdf",
+            "section_title": "36. Sun Z, Huang S, Jiang P, 55. Tang F, Li S, Liu D,",
+            "importance_rank": 5,
+            "page_number": 11
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "bioinformatics1.pdf",
+            "refined_text": "Here, we develop Decagon , a method for predicting side effects of drug pairs. We model the problem by constructing a large two-layer multimodal graph of protein–protein interactions, drug–protein inter- actions and drug–drug interactions (i.e. side effects; Fig. 1 ). Each drug–drug interaction is labeled by a different edge type, which signifies the type of the side effect. We then develop a new multirela- tional edge prediction model that uses the multimodal graph to pre- dict drug–drug interactions as well as their types. Our model is a convolutional graph neural network that operates in a multirelational setting. To motivate our model, we first perform exploratory analysis leading to two important observations (Section 3). First, we find that co-prescribed drugs (i.e. drug combinations) tend to have more target proteins in common than random drug pairs, suggesting that drug-target protein information contains valuable information for drug combination modeling. Second, we find that it is important to consider a map of protein–protein interactions in order to be able to model characteristics of drugs with common side effects. These observations motivate the development of Decagon to make predictions about which drug pairs will interact and what will the exact type of the interaction/side effect be (Section 4). Decagon develops new graph auto-encoder approach Hamilton et al. , 2017a ), which allows us to develop an end-to-end trainable model for link prediction on a multimodal graph. In con- trast, previous graph-based approaches for link prediction tasks in biology (e.g. Chen et al. 2016 b; Huang et al. 2014b Zong et al. 2017 ) employ a two-stage pipeline, typically consisting of a graph feature extraction model and a link prediction model, both of which are trained separately. Furthermore, the crucial distinguishing char- acteristic of Decagon is the multirelational link prediction ability allowing us to capture the interdependence of different edge (side ef- fect) types, and to identify which out of all possible edge types exist between any two drug nodes in the graph. This is in sharp contrast with approaches for simple link prediction ( Trouillon et al. , 2016 ), which predict only existence of edges between node pairs, and is also critical for modeling a large number of different edge/side effect types. We contrast Decagon ’s performance with that of state-of-the-art approaches for multirelational tensor factorization ( Nickel et al. 2011 Papalexakis et al. , 2017 ), approaches for representation learn- ing on graphs ( Perozzi et al. , 2014 Zong et al. , 2017 ) and estab- lished machine learning methods for link prediction, which we adapted for the polypharmacy side effect prediction task. Decagon outperforms alternative approaches by up to 69% and leads to a 20% average gain in predictive performance, with larger gains achieved on side effect types that have a strong molecular basis (Section 6). For several novel predictions we find supporting evi- dence in the biomedical literature, suggesting that Decagon per- forms especially well at identifying predictions that are highly likely Drug Protein Gastrointestinal bleed side effect Bradycardia side effect Protein-protein interaction Drug-protein interaction Polypharmacy side effects Ciprofloxacin Simvastatin Doxycycline Mupirocin Node feature vector Fig. 1. An example graph of polypharmacy side effects derived from genomic and patient population data. A multimodal graph consists of protein–protein inter- actions, drug–protein targets and drug–drug interactions encoded by 964 different polypharmacy side effects (i.e. edge types 964). Side information is integrated into the model in the form of additional protein and drug feature vec- tors. Highlighted network neighbors of Ciproﬂoxacin (node ) indicate this drug targets four proteins and interacts with three other drugs. The graph encodes in- formation that Ciproﬂoxacin (node ) taken together with Doxycycline (node ) or with Simvastatin (node ) increases the risk of bradycardia side effect (side effect type ), and its combination with Mupirocin ( ) increases the risk of gastrointes- tinal bleed side effect . We use the graph representation to develop Decagon , a graph convolutional neural model of polypharmacy side effects. Decagon predicts associations between pairs of drugs and side effects (shown in red) with the goal of identifying side effects, which cannot be attributed to either individual drug in the pair i458 M.Zitnik et al. Downloaded from https://academic.oup.com/bioinformatics/article/34/13/i457/5045770 by guest on 21 July 2025",
+            "page_number": 1
+        },
+        {
+            "document": "bioinformatics1.pdf",
+            "refined_text": "We start by comparing the performance of Decagon to alternative approaches. From results in Table 2 , we see that considering the multimodal network representation and modeling a large number of different side effects allows Decagon to outperform other approaches by a large margin. Across 964 side effect types, Decagon outperforms alternative approaches by 19.7% (AUROC), 22.0% (AUPRC) and 36.3% (AP@50). Decagon ’s improvement is especially pronounced relative to tensor factorization methods, where Decagon surpasses tensor-based methods by up to 68.7% (AP@50). This finding highlights a potential limitation of directly optimizing a tensor decom- position [i.e. vanilla RESCAL and DEDICOM ( Nickel et al. , 2011 Papalexakis et al. , 2017 )] without relying on a graph-structured convo- lutional encoder. We also compared Decagon with two other methods Perozzi et al. , 2014 Zong et al. , 2017 ), which we adapted for a multi- relational link prediction task. We observe that DeepWalk neural embeddings and Concatenated drug features achieve a gain of 9.0% (AUROC) and a 20.1% gain (AUPRC) over tensor-based methods. However, these approaches employ a two-stage pipeline, consisting of a drug feature extraction model and a link prediction model, both of which are trained separately. Furthermore, they cannot consider inter- dependence of different side effects that we showed to contain useful information (Section 3). These additional modeling insights, give Decagon a 22.0% gain over DeepWalk neural embeddings, and a 12.8% gain over Concatenated drug features in AP@50 scores. These findings are aligned with results that predictions can often be significantly improved by end-to-end learning and specifically using graph auto-encoders ( Hamilton et al. , 2017a Kipf and Welling, 2016 ). In particular, tensor decomposition and neural embedding baseline approaches allow us to quantify what percent- age of the performance improvement is due to the embeddings (i.e. Decagon ’s encoder) and what percentage is due to the multitask learning (i.e. Decagon ’s decoder). To better understand Decagon ’s performance we stratify the aggregated statistics in Table 2 by side effect type. Manual examin- ation of the results and a discussion with domain experts reveals a common property of best performing side effects in Table 3 . We ob- serve that Decagon models particularly well side effects with strong apparent molecular underpinnings. This observation is consistent with our expectation because Decagon ’s multimodal graph ( Fig. 1 contains predominantly pharmacogenomic information. We also observed that side effects with the worst performance tend to be common side effects and/or have non-molecular origins with potentially important environmental and behavioral components Table 3 ). Decagon ’s competitive performance on those side effects can be explained by effective sharing of model parameters across dif- ferent types of side effects. 6.2 Investigation of Decagon ’s novel predictions Next, we perform a literature-based evaluation of new hits. Our goal is to evaluate the quality of novel Decagon ’s predictions about relationships between side effects and drug pairs. To this aim, we ask Decagon to make a prediction for every drug pair and every side effect type in the dataset. We then use these predictions to construct a ranked list of (drug , side effect type , drug ) triples, where the Table 2. Area under ROC curve (AUROC), area under precision-re- call curve (AUPRC) and average precision at 50 (AP@50) for poly- pharmacy side effect prediction Approach AUROC AUPRC AP@50 Decagon 0.872 0.832 0.803 RESCAL tensor factorization 0.693 0.613 0.476 DEDICOM tensor factorization 0.705 0.637 0.567 DeepWalk neural embeddings 0.761 0.737 0.658 Concatenated drug features 0.793 0.764 0.712 Note : Reported are average performance values for 964 side effect types. Table 3. Side effects with the best and worst performance in Decagon Best performing side effects AUPRC Worst performing side effects AUPRC Mumps 0.964 Bleeding 0.679 Carbuncle 0.949 Increased body temp. 0.680 Coccydynia 0.943 Emesis 0.693 Tympanic membrane perfor. 0.941 Renal disorder 0.694 Dyshidrosis 0.938 Leucopenia 0.695 Spondylosis 0.929 Diarrhea 0.705 Schizoaffective disorder 0.919 Icterus 0.707 Breast dysplasia 0.918 Nausea 0.711 Ganglion 0.909 Itch 0.712 Uterine polyp 0.908 Anaemia 0.712 Modeling polypharmacy side effects with graph convolutional networks i463 Downloaded from https://academic.oup.com/bioinformatics/article/34/13/i457/5045770 by guest on 21 July 2025",
+            "page_number": 6
+        },
+        {
+            "document": "bioinformatics1.pdf",
+            "refined_text": "7.1 Drug combination modeling Figure 4",
+            "page_number": 7
+        },
+        {
+            "document": "bioinformatics3.pdf",
+            "refined_text": "22. Liu H, Zhang W, Zou B, 2. Zhao S, Nishimura T, Chen Y,",
+            "page_number": 10
+        },
+        {
+            "document": "bioinformatics3.pdf",
+            "refined_text": "et al. An unbiased oncology compound screen to identify novel combination strategies. Mol Cancer Ther 2016; 15 (6): 1155–62. 21. Menden MP, Wang D, Mason MJ, et al. Community assess- ment to advance computational prediction of cancer drug combinations in a pharmacogenomic screen. Nat Commun 2019; 10 (1): 1–17. 22. Liu H, Zhang W, Zou B, et al. Drugcombdb: a comprehen- sive database of drug combinations toward the discovery of combinatorial therapy. Nucleic Acids Res 2020; 48 (D1): D871–81. 23. Sałat R, Sałat K. The application of support vector regression for prediction of the antiallodynic effect of drug combina- tions in the mouse model of streptozocin-induced diabetic neuropathy. Comput Methods Programs Biomed 2013; 111 330–7. 24. Qi Y. Random forest for bioinformatics. In: Ensemble machine learning . Springer, 2012, 307–23. 25. Liu H, Zhang W, Nie L, et al. Predicting effective drug com- binations using gradient tree boosting based on features extracted from drug-protein heterogeneous network. BMC bioinformatics 2019; 20 (1): 1–12. 26. Preuer K, Lewis RPI, Hochreiter S, et al. Deepsynergy: predict- ing anti-cancer drug synergy with deep learning. Bioinformat- ics 2018; 34 (9): 1538–46. 27. Liu Q, Xie L. Transynergy: Mechanism-driven interpretable deep neural network for the synergistic prediction and path- Downloaded from https://academic.oup.com/bib/article/23/1/bbab390/6375262 by guest on 21 July 2025",
+            "page_number": 10
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+PDFs/
+pdfs/
+outputs/
+output/
+logs/
+debug_output/
+*.pdf
+*.json
+*.log
+__pycache__/
+*.pyc
+.git/
+.gitlfs/
+.DS_Store
+models/all-mpnet-base-v2/
+models/ 

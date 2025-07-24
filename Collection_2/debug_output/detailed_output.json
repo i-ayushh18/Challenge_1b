@@ -1,0 +1,510 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Learn Acrobat - Create and Convert_1.pdf",
+      "Learn Acrobat - Create and Convert_2.pdf",
+      "Learn Acrobat - Edit_1.pdf",
+      "Learn Acrobat - Edit_2.pdf",
+      "Learn Acrobat - Export_1.pdf",
+      "Learn Acrobat - Export_2.pdf",
+      "Learn Acrobat - Fill and Sign.pdf",
+      "Learn Acrobat - Generative AI_1.pdf",
+      "Learn Acrobat - Generative AI_2.pdf",
+      "Learn Acrobat - Request e-signatures_1.pdf",
+      "Learn Acrobat - Request e-signatures_2.pdf",
+      "Learn Acrobat - Share_1.pdf",
+      "Learn Acrobat - Share_2.pdf",
+      "Test Your Acrobat Exporting Skills.pdf",
+      "The Ultimate PDF Sharing Checklist.pdf"
+    ],
+    "persona": "Tile",
+    "job_to_be_done": "select Tile",
+    "processing_timestamp": "2025-07-24T16:52:22.955544Z",
+    "total_sections_found": 653,
+    "sections_after_filtering": 653,
+    "ranking_strategy": "enhanced_ranking",
+    "processing_time_seconds": 16.932927,
+    "max_results": 15
+  },
+  "extracted_sections": [
+    {
+      "document": "Learn Acrobat - Export_1.pdf",
+      "page": 7,
+      "section_title": "Tile Size:",
+      "level": "H3",
+      "importance_rank": 1,
+      "importance_score": 0.5535274091740635,
+      "relevance_factors": {
+        "tfidf_similarity": 0.4696518562684919,
+        "section_length": 0.05,
+        "page_position": 0.94,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "page": 7,
+      "section_title": "Move or copy a page",
+      "level": "H3",
+      "importance_rank": 2,
+      "importance_score": 0.4188977417580676,
+      "relevance_factors": {
+        "tfidf_similarity": 0.12182768772850218,
+        "section_length": 0.095,
+        "page_position": 0.94,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "page": 4,
+      "section_title": "Method 3",
+      "level": "H2",
+      "importance_rank": 3,
+      "importance_score": 0.4170373237745768,
+      "relevance_factors": {
+        "tfidf_similarity": 0.04009330943644209,
+        "section_length": 0.04,
+        "page_position": 0.97,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "page": 2,
+      "section_title": "Method 1: From the top tools bar, select",
+      "level": "H3",
+      "importance_rank": 4,
+      "importance_score": 0.4165294707255013,
+      "relevance_factors": {
+        "tfidf_similarity": 0.07715701014708645,
+        "section_length": 0.2,
+        "page_position": 0.99,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "page": 3,
+      "section_title": "PAGE OPTIONS",
+      "level": "H2",
+      "importance_rank": 5,
+      "importance_score": 0.41581513895405675,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0295378473851419,
+        "section_length": 0.06,
+        "page_position": 0.98,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_2.pdf",
+      "page": 0,
+      "section_title": "PDF Layers In Visio Drawing",
+      "level": "H2",
+      "importance_rank": 6,
+      "importance_score": 0.4145,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.135,
+        "page_position": 1.01,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Learn Acrobat - Export_1.pdf",
+      "page": 12,
+      "section_title": "RTF",
+      "level": "H2",
+      "importance_rank": 7,
+      "importance_score": 0.41173605831559024,
+      "relevance_factors": {
+        "tfidf_similarity": 0.05309014578897548,
+        "section_length": 0.015,
+        "page_position": 0.89,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "page": 3,
+      "section_title": "Method 4: From the top-right corner of the webpage,",
+      "level": "H3",
+      "importance_rank": 8,
+      "importance_score": 0.4111190042635129,
+      "relevance_factors": {
+        "tfidf_similarity": 0.05238084399211545,
+        "section_length": 0.255,
+        "page_position": 0.98,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "page": 3,
+      "section_title": "Method 3: Right-click on the file and then select Convert to",
+      "level": "H3",
+      "importance_rank": 9,
+      "importance_score": 0.41029101317219874,
+      "relevance_factors": {
+        "tfidf_similarity": 0.03906086626383016,
+        "section_length": 0.3,
+        "page_position": 0.98,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "page": 2,
+      "section_title": "PAGES SELECTED",
+      "level": "H2",
+      "importance_rank": 10,
+      "importance_score": 0.4102425018036636,
+      "relevance_factors": {
+        "tfidf_similarity": 0.010606254509159061,
+        "section_length": 0.07,
+        "page_position": 0.99,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "page": 1,
+      "section_title": "Method 3: Right-click on the file and then select",
+      "level": "H3",
+      "importance_rank": 11,
+      "importance_score": 0.408309826862,
+      "relevance_factors": {
+        "tfidf_similarity": 0.042857900488333364,
+        "section_length": 0.245,
+        "page_position": 1.0,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Learn Acrobat - Export_1.pdf",
+      "page": 4,
+      "section_title": "DOCX",
+      "level": "H2",
+      "importance_rank": 12,
+      "importance_score": 0.4081097217471982,
+      "relevance_factors": {
+        "tfidf_similarity": 0.022774304367995515,
+        "section_length": 0.02,
+        "page_position": 0.97,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Learn Acrobat - Export_1.pdf",
+      "page": 8,
+      "section_title": "PNG",
+      "level": "H2",
+      "importance_rank": 13,
+      "importance_score": 0.40720953614162303,
+      "relevance_factors": {
+        "tfidf_similarity": 0.031773840354057496,
+        "section_length": 0.015,
+        "page_position": 0.9299999999999999,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "page": 2,
+      "section_title": "Method 1 (Windows only): Within Microsoft Outlook or Lotus",
+      "level": "H3",
+      "importance_rank": 14,
+      "importance_score": 0.4070690205358608,
+      "relevance_factors": {
+        "tfidf_similarity": 0.03100588467298531,
+        "section_length": 0.29,
+        "page_position": 0.99,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "page": 2,
+      "section_title": "Method 1 (Windows only): From the authoring application",
+      "level": "H3",
+      "importance_rank": 15,
+      "importance_score": 0.40691164348645836,
+      "relevance_factors": {
+        "tfidf_similarity": 0.034362442049479226,
+        "section_length": 0.275,
+        "page_position": 0.99,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Learn Acrobat - Export_1.pdf",
+      "refined_text": "Divides the image being compressed into tiles of the given size. (If the image height or width is not an even multiple of the tile size, partial tiles are used on the edges.) Image data for each tile is individually compressed and can be individually",
+      "page": 7,
+      "level": "H3",
+      "importance_score": 0.5535274091740635
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "1. Open the PDF in Acrobat, and select All tools Organize pages The page thumbnails are displayed in the Document area. 2. Select one or more page thumbnails. 3. Do one of the following: To move a page, drag the corresponding page thumbnail to the new location. A bar will appear to show the new position of the page thumbnail. The pages will be renumbered. To cut or copy a page, select the page, and then select the ellipsis icon in the context menu bar displayed next to it. Select Cut or Copy from the context menu. Select between the page thumbnails where you want to paste the page. A blue horizontal marker shows the selected location where you want to paste. Select Paste from the context menu. You can paste the pages in another PDF as well. Note: You can also move or copy pages by selecting the Page Thumbnails button from the right pane. Copy a page between two PDFs 1. Open both PDFs and display them alongside each other. To display the PDFs side by side, select Window from the hamburger menu (Windows) or the Window menu (macOS). Then select Tile Vertically 2. Select All tools Organize pages The page thumbnails are displayed in the Document area. 3. Select the page thumbnail of the page you want to cut or copy. To select multiple pages, press Ctrl (Windows) or command (macOS) and then select the pages. From the page thumbnail context menu, select Copy",
+      "page": 7,
+      "level": "H3",
+      "importance_score": 0.4188977417580676
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "refined_text": ": From Microsoft PowerPoint, select Adobe Presenter Publish Balance PDF file size and quality You can select various settings to ensure that your PDF has the best balance between file size, resolution, conformity to specific standards, and other factors. The settings you select depend on your goals for the PDF that you are creating. For example, a PDF intended for high-quality",
+      "page": 4,
+      "level": "H2",
+      "importance_score": 0.4170373237745768
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "refined_text": "Create . Then, select Scanner as the file type, select the scanner, and follow through the steps or browse to locate a pre-scanned page. Or, select the hamburger menu (Windows) or the File menu (macOS) > Create from scanner and follow through the workflow. Microsoft Oﬃce documents Method 1 (Windows only): From the authoring application toolbar, select Adobe Acrobat Create and Share Adobe PDF Method 2 (Windows only): Open the file in its source application and then go to Print Adobe PDF printer Method 3 (Windows only): Right-click on the file and select Convert to Adobe PDF Method 4: Drag and drop the file from your system to the Acrobat Home page. Method 5 (macOS only): From the authoring application, select File Print PDF Save as Adobe PDF Email messages",
+      "page": 2,
+      "level": "H3",
+      "importance_score": 0.4165294707255013
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "4. In the dialog, select one or more of the following before you select Extract To remove the extracted pages from the original document, select Delete pages after extracting To create a single-page PDF for each extracted page, select Extract pages as separate files To keep the original pages intact and create a single PDF for the extracted pages, deselect both options. The extracted pages are placed in a new document. Note: The creator of a PDF document can set the security to prevent the extraction of pages. To view the security settings for a document, choose Document properties from the hamburger menu (Windows) or File menu in macOS and then select the Security tab in the dialog. Extract random pages from a PDF You can also select and extract discontinuous pages from the page thumbnails in the right navigation pane of Acrobat. 1. Open the PDF in Acrobat. From the upper left, select All Tools Organize pages. 2. Specify the pages which you want to extract separated with a comma. For example, if you want to extract pages 3 and 5, enter 3, 5 in the pages field under PAGES SELECTED.",
+      "page": 3,
+      "level": "H2",
+      "importance_score": 0.41581513895405675
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_2.pdf",
+      "refined_text": "PDF Layers In Visio Drawing",
+      "page": 0,
+      "level": "H2",
+      "importance_score": 0.4145
+    },
+    {
+      "document": "Learn Acrobat - Export_1.pdf",
+      "refined_text": "4. Select Convert to RTF 5. In the Save as dialog, select a location where you want to save the file and then select Save PDF to RTF conversion seƫngs In Acrobat, select All tools Export a PDF and select Other format. From the drop-down menu next to Other format , select RTF . Select the settings icon to change the export preferences. Layout Settings Retain Flowing Text: Speciﬁes that text ﬂow must be retained. Retain Page Layout: Speciﬁes that page layout must be retained. Comments Settings Include Comments: Exports comments to the output ﬁle. Image Settings",
+      "page": 12,
+      "level": "H2",
+      "importance_score": 0.41173605831559024
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "refined_text": "select Print Adobe PDF Content copied on the clipboard Method 1: From the top tools bar, select Create . Then, select Clipboard as the file type and follow through the steps. Or, select the hamburger menu (Windows) or the File menu (macOS) > Create PDF from clipboard and follow through the workflow. AutoCAD files (Acrobat Pro for Windows only) Method 1: From the top tools bar, select Create and then select the file. Or, select the hamburger menu (Windows) or the File menu (macOS) > Create PDF from file and follow through the workflow. Method 2: Drag and drop the HTML file from your system to the Acrobat Home page. Method 3: Right-click the file and select Convert to Adobe PDF Method 4: Within AutoCAD, go to Print Adobe PDF",
+      "page": 3,
+      "level": "H3",
+      "importance_score": 0.4111190042635129
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "refined_text": "Adobe PDF. Method 4: From the top-right corner of the webpage, select Print Adobe PDF Content copied on the clipboard Method 1: From the top tools bar, select Create . Then, select Clipboard as the file type and follow through the steps. Or, select the hamburger menu (Windows) or the File menu (macOS) > Create PDF from clipboard and follow through the workflow. AutoCAD files (Acrobat Pro for Windows only) Method 1: From the top tools bar, select Create and then select the file. Or, select the hamburger menu (Windows) or the File menu (macOS) > Create PDF from file and follow through the workflow. Method 2: Drag and drop the HTML file from your system to the Acrobat Home page. Method 3: Right-click the file and select Convert to Adobe PDF Method 4: Within AutoCAD, go to Print Adobe PDF",
+      "page": 3,
+      "level": "H3",
+      "importance_score": 0.41029101317219874
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": ", then select the appropriate option. Alternatively, you can enter the page number you want to operate on. 3. After specifying the page range, for Direction, select either Rotate page left for counterclockwise 90° rotation or Rotate page right° for clockwise 90° rotation 4. You can also apply the page rotation on a specific page by selecting the buttons in the right pane. Note: To temporarily change your view of the page, from the hamburger menu (Windows) or the View menu (macOS), choose View Rotate view Rotate view right or Rotate view left . The original page orientation is restored the next time you open the PDF.",
+      "page": 2,
+      "level": "H2",
+      "importance_score": 0.4102425018036636
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "refined_text": "Convert to Adobe PDF",
+      "page": 1,
+      "level": "H3",
+      "importance_score": 0.408309826862
+    },
+    {
+      "document": "Learn Acrobat - Export_1.pdf",
+      "refined_text": "from the drop-down menu next to Microsoft Word Then select Convert to DOCX",
+      "page": 4,
+      "level": "H2",
+      "importance_score": 0.4081097217471982
+    },
+    {
+      "document": "Learn Acrobat - Export_1.pdf",
+      "refined_text": ". Select the settings icon to change the export preferences.",
+      "page": 8,
+      "level": "H2",
+      "importance_score": 0.40720953614162303
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "refined_text": "Notes, select Acrobat PDFMaker or select Adobe PDF menu options (Outlook) or the Actions menu (Lotus Notes). Method 2 (Windows only): From the email application, go to Print Adobe PDF Create a PDF (not a PDF Portfolio). Method 3 (Outlook 2010 or later): From the email folder or selection of messages, right-click and then select Convert to Adobe PDF",
+      "page": 2,
+      "level": "H3",
+      "importance_score": 0.4070690205358608
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "refined_text": "toolbar, select Adobe Acrobat Create and Share Adobe PDF Method 2 (Windows only): Open the file in its source application and then go to Print Adobe PDF printer Method 3 (Windows only): Right-click on the file and select Convert to Adobe PDF Method 4: Drag and drop the file from your system to the Acrobat Home page. Method 5 (macOS only): From the authoring application, select File Print PDF Save as Adobe PDF Email messages Method 1 (Windows only): Within Microsoft Outlook or Lotus Notes, select Acrobat PDFMaker or select Adobe PDF menu options (Outlook) or the Actions menu (Lotus Notes). Method 2 (Windows only): From the email application, go to Print Adobe PDF Create a PDF (not a PDF Portfolio). Method 3 (Outlook 2010 or later): From the email folder or selection of messages, right-click and then select Convert to Adobe PDF",
+      "page": 2,
+      "level": "H3",
+      "importance_score": 0.40691164348645836
+    }
+  ],
+  "document_summaries": [
+    {
+      "name": "Learn Acrobat - Create and Convert_1.pdf",
+      "path": "/app/input/Learn Acrobat - Create and Convert_1.pdf",
+      "title": "",
+      "total_headings": 147,
+      "processing_time": 1.0149140357971191,
+      "confidence_score": 0.5,
+      "document_type": "academic"
+    },
+    {
+      "name": "Learn Acrobat - Create and Convert_2.pdf",
+      "path": "/app/input/Learn Acrobat - Create and Convert_2.pdf",
+      "title": "PDF Layers In Visio Drawing",
+      "total_headings": 104,
+      "processing_time": 0.36951351165771484,
+      "confidence_score": 0.5,
+      "document_type": "academic"
+    },
+    {
+      "name": "Learn Acrobat - Edit_1.pdf",
+      "path": "/app/input/Learn Acrobat - Edit_1.pdf",
+      "title": "",
+      "total_headings": 32,
+      "processing_time": 0.5036027431488037,
+      "confidence_score": 0.5,
+      "document_type": "academic"
+    },
+    {
+      "name": "Learn Acrobat - Edit_2.pdf",
+      "path": "/app/input/Learn Acrobat - Edit_2.pdf",
+      "title": "Convert",
+      "total_headings": 35,
+      "processing_time": 0.5184082984924316,
+      "confidence_score": 0.5,
+      "document_type": "academic"
+    },
+    {
+      "name": "Learn Acrobat - Export_1.pdf",
+      "path": "/app/input/Learn Acrobat - Export_1.pdf",
+      "title": "",
+      "total_headings": 125,
+      "processing_time": 0.733309268951416,
+      "confidence_score": 0.5,
+      "document_type": "academic"
+    },
+    {
+      "name": "Learn Acrobat - Export_2.pdf",
+      "path": "/app/input/Learn Acrobat - Export_2.pdf",
+      "title": "Copy images",
+      "total_headings": 9,
+      "processing_time": 0.1210176944732666,
+      "confidence_score": 0.5,
+      "document_type": "academic"
+    },
+    {
+      "name": "Learn Acrobat - Fill and Sign.pdf",
+      "path": "/app/input/Learn Acrobat - Fill and Sign.pdf",
+      "title": "of PDF forms",
+      "total_headings": 37,
+      "processing_time": 0.7276368141174316,
+      "confidence_score": 0.5,
+      "document_type": "academic"
+    },
+    {
+      "name": "Learn Acrobat - Generative AI_1.pdf",
+      "path": "/app/input/Learn Acrobat - Generative AI_1.pdf",
+      "title": "",
+      "total_headings": 35,
+      "processing_time": 1.3843412399291992,
+      "confidence_score": 0.5,
+      "document_type": "academic"
+    },
+    {
+      "name": "Learn Acrobat - Generative AI_2.pdf",
+      "path": "/app/input/Learn Acrobat - Generative AI_2.pdf",
+      "title": "Persistent chat history",
+      "total_headings": 7,
+      "processing_time": 0.5714817047119141,
+      "confidence_score": 0.5,
+      "document_type": "academic"
+    },
+    {
+      "name": "Learn Acrobat - Request e-signatures_1.pdf",
+      "path": "/app/input/Learn Acrobat - Request e-signatures_1.pdf",
+      "title": "",
+      "total_headings": 63,
+      "processing_time": 1.3414695262908936,
+      "confidence_score": 0.5,
+      "document_type": "academic"
+    },
+    {
+      "name": "Learn Acrobat - Request e-signatures_2.pdf",
+      "path": "/app/input/Learn Acrobat - Request e-signatures_2.pdf",
+      "title": "(ALCRM) servers",
+      "total_headings": 6,
+      "processing_time": 0.41558170318603516,
+      "confidence_score": 0.5,
+      "document_type": "academic"
+    },
+    {
+      "name": "Learn Acrobat - Share_1.pdf",
+      "path": "/app/input/Learn Acrobat - Share_1.pdf",
+      "title": "",
+      "total_headings": 12,
+      "processing_time": 0.37998270988464355,
+      "confidence_score": 0.5,
+      "document_type": "document"
+    },
+    {
+      "name": "Learn Acrobat - Share_2.pdf",
+      "path": "/app/input/Learn Acrobat - Share_2.pdf",
+      "title": "document",
+      "total_headings": 15,
+      "processing_time": 0.7715287208557129,
+      "confidence_score": 0.5,
+      "document_type": "academic"
+    },
+    {
+      "name": "Test Your Acrobat Exporting Skills.pdf",
+      "path": "/app/input/Test Your Acrobat Exporting Skills.pdf",
+      "title": "Scenario:",
+      "total_headings": 4,
+      "processing_time": 0.1303558349609375,
+      "confidence_score": 0.5,
+      "document_type": "document"
+    },
+    {
+      "name": "The Ultimate PDF Sharing Checklist.pdf",
+      "path": "/app/input/The Ultimate PDF Sharing Checklist.pdf",
+      "title": "Choose Your Sharing Method",
+      "total_headings": 22,
+      "processing_time": 0.11416053771972656,
+      "confidence_score": 0.5,
+      "document_type": "document"
+    }
+  ],
+  "dynamic_personas": [
+    "Tile",
+    "Worksheets",
+    "• \nItalic"
+  ],
+  "dynamic_jobs": [
+    "select Tile",
+    "resized",
+    "Makes"
+  ]
+}

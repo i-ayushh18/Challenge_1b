@@ -1,0 +1,407 @@
+{
+  "metadata": {
+    "input_documents": [
+      "OrganicChem1.pdf",
+      "OrganicChem2.pdf",
+      "OrganicChem3.pdf",
+      "OrganicChem4.pdf",
+      "OrganicChem5.pdf"
+    ],
+    "persona": "CH2 =CH2 + H2 \nPt/Pd/Ni\n CH3−CH3 \nEthene\b\nPropane",
+    "job_to_be_done": "affects electronegativity",
+    "processing_timestamp": "2025-07-24T16:58:17.052763Z",
+    "total_sections_found": 223,
+    "sections_after_filtering": 223,
+    "ranking_strategy": "enhanced_ranking",
+    "processing_time_seconds": 42.082099,
+    "max_results": 15
+  },
+  "extracted_sections": [
+    {
+      "document": "OrganicChem2.pdf",
+      "page": 5,
+      "section_title": "1. From unsaturated hydrocarbons",
+      "level": "H3",
+      "importance_rank": 1,
+      "importance_score": 0.4600578070177247,
+      "relevance_factors": {
+        "tfidf_similarity": 0.20347785087764514,
+        "section_length": 0.16,
+        "page_position": 0.96,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "OrganicChem3.pdf",
+      "page": 5,
+      "section_title": "1. From unsaturated hydrocarbons",
+      "level": "H3",
+      "importance_rank": 2,
+      "importance_score": 0.4600578070177247,
+      "relevance_factors": {
+        "tfidf_similarity": 0.20347785087764514,
+        "section_length": 0.16,
+        "page_position": 0.96,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "OrganicChem2.pdf",
+      "page": 9,
+      "section_title": "6. Reaction with steam",
+      "level": "H2",
+      "importance_rank": 3,
+      "importance_score": 0.42861613545479227,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0640403386369807,
+        "section_length": 0.11,
+        "page_position": 0.92,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "OrganicChem3.pdf",
+      "page": 9,
+      "section_title": "6. Reaction with steam",
+      "level": "H2",
+      "importance_rank": 4,
+      "importance_score": 0.42861613545479227,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0640403386369807,
+        "section_length": 0.11,
+        "page_position": 0.92,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "OrganicChem2.pdf",
+      "page": 9,
+      "section_title": "5. Aromatization",
+      "level": "H2",
+      "importance_rank": 5,
+      "importance_score": 0.42159406544974853,
+      "relevance_factors": {
+        "tfidf_similarity": 0.053985163624371404,
+        "section_length": 0.08,
+        "page_position": 0.92,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "OrganicChem3.pdf",
+      "page": 9,
+      "section_title": "5. Aromatization",
+      "level": "H2",
+      "importance_rank": 6,
+      "importance_score": 0.42159406544974853,
+      "relevance_factors": {
+        "tfidf_similarity": 0.053985163624371404,
+        "section_length": 0.08,
+        "page_position": 0.92,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "OrganicChem2.pdf",
+      "page": 9,
+      "section_title": "7. Pyrolysis",
+      "level": "H2",
+      "importance_rank": 7,
+      "importance_score": 0.4204644327305884,
+      "relevance_factors": {
+        "tfidf_similarity": 0.05616108182647113,
+        "section_length": 0.06,
+        "page_position": 0.92,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "OrganicChem3.pdf",
+      "page": 9,
+      "section_title": "7. Pyrolysis",
+      "level": "H2",
+      "importance_rank": 8,
+      "importance_score": 0.4204644327305884,
+      "relevance_factors": {
+        "tfidf_similarity": 0.05616108182647113,
+        "section_length": 0.06,
+        "page_position": 0.92,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "OrganicChem2.pdf",
+      "page": 5,
+      "section_title": "Problem 9.4",
+      "level": "H3",
+      "importance_rank": 9,
+      "importance_score": 0.4178196691003697,
+      "relevance_factors": {
+        "tfidf_similarity": 0.12413250608425758,
+        "section_length": 0.055,
+        "page_position": 0.96,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "OrganicChem3.pdf",
+      "page": 5,
+      "section_title": "Problem 9.4",
+      "level": "H3",
+      "importance_rank": 10,
+      "importance_score": 0.4178196691003697,
+      "relevance_factors": {
+        "tfidf_similarity": 0.12413250608425758,
+        "section_length": 0.055,
+        "page_position": 0.96,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "OrganicChem2.pdf",
+      "page": 6,
+      "section_title": "3. From carboxylic acids",
+      "level": "H2",
+      "importance_rank": 11,
+      "importance_score": 0.4142682454631229,
+      "relevance_factors": {
+        "tfidf_similarity": 0.018170613657807255,
+        "section_length": 0.12,
+        "page_position": 0.95,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "OrganicChem3.pdf",
+      "page": 6,
+      "section_title": "3. From carboxylic acids",
+      "level": "H2",
+      "importance_rank": 12,
+      "importance_score": 0.4142682454631229,
+      "relevance_factors": {
+        "tfidf_similarity": 0.018170613657807255,
+        "section_length": 0.12,
+        "page_position": 0.95,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "OrganicChem5.pdf",
+      "page": 1,
+      "section_title": "1. From sucrose (Cane sugar)",
+      "level": "H2",
+      "importance_rank": 13,
+      "importance_score": 0.41400000000000003,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.14,
+        "page_position": 1.0,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "OrganicChem2.pdf",
+      "page": 0,
+      "section_title": "9.1\t CLASSIFICATION",
+      "level": "H2",
+      "importance_rank": 14,
+      "importance_score": 0.4105,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.095,
+        "page_position": 1.01,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "OrganicChem3.pdf",
+      "page": 0,
+      "section_title": "9.1\t CLASSIFICATION",
+      "level": "H2",
+      "importance_rank": 15,
+      "importance_score": 0.4105,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.095,
+        "page_position": 1.01,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "OrganicChem2.pdf",
+      "refined_text": "Dihydrogen gas adds to alkenes and alkynes in the presence of finely divided catalysts like platinum, palladium or nickel to form alkanes. This process is called hydrogenation . These metals adsorb dihydrogen gas on their surfaces and activate the hydrogen – hydrogen bond. Platinum and palladium catalyse the reaction at room temperature but relatively higher temperature and pressure are required with nickel catalysts. CH =CH Pt/Pd/Ni CH CH Ethene\b Propane   (9.1) CH –CH=CH Pt/Pd/Ni CH CH CH Propane\b Propane (9.2) CH –C C–H + 2H Pt/Pd/Ni CH CH CH Propyne\b Propane (9.3) 2. From alkyl halides i)\t Alkyl halides (except fluorides) on reduction with zinc and dilute hydrochloric acid give alkanes. CH–C1+H Zn,H CH HC1   (9.4) Chloromethane Methane Reprint 2025-26",
+      "page": 5,
+      "level": "H3",
+      "importance_score": 0.4600578070177247
+    },
+    {
+      "document": "OrganicChem3.pdf",
+      "refined_text": "Dihydrogen gas adds to alkenes and alkynes in the presence of finely divided catalysts like platinum, palladium or nickel to form alkanes. This process is called hydrogenation . These metals adsorb dihydrogen gas on their surfaces and activate the hydrogen – hydrogen bond. Platinum and palladium catalyse the reaction at room temperature but relatively higher temperature and pressure are required with nickel catalysts. CH =CH Pt/Pd/Ni CH CH Ethene\b Propane   (9.1) CH –CH=CH Pt/Pd/Ni CH CH CH Propane\b Propane (9.2) CH –C C–H + 2H Pt/Pd/Ni CH CH CH Propyne\b Propane (9.3) 2. From alkyl halides i)\t Alkyl halides (except fluorides) on reduction with zinc and dilute hydrochloric acid give alkanes. CH–C1+H Zn,H CH HC1   (9.4) Chloromethane Methane Reprint 2025-26",
+      "page": 5,
+      "level": "H3",
+      "importance_score": 0.4600578070177247
+    },
+    {
+      "document": "OrganicChem2.pdf",
+      "refined_text": "Methane reacts with steam at 1273 K in the presence of nickel catalyst to form carbon monoxide and dihydrogen. This method is used for industrial preparation of dihydrogen gas CH 2IO Ni CO  +  3H (9.27) 7. Pyrolysis Higher alkanes on heating to higher temperature decompose into lower alkanes, alkenes etc. Such a decomposition reaction into smaller fragments by the application of heat is called pyrolysis or cracking (9.28) Pyrolysis of alkanes is believed to be a free radical reaction. Preparation of oil gas or petrol gas from kerosene oil or petrol involves the principle of pyrolysis. For example, dodecane, a constituent of kerosene oil on heating to 973K in the presence of platinum, palladium or nickel gives a mixture of heptane and pentene. 12 26 Pt/Pd/Ni 973K 16 10 Other Products Dodecane Heptane Pentene (9.29) Reprint 2025-26",
+      "page": 9,
+      "level": "H2",
+      "importance_score": 0.42861613545479227
+    },
+    {
+      "document": "OrganicChem3.pdf",
+      "refined_text": "Methane reacts with steam at 1273 K in the presence of nickel catalyst to form carbon monoxide and dihydrogen. This method is used for industrial preparation of dihydrogen gas CH 2IO Ni CO  +  3H (9.27) 7. Pyrolysis Higher alkanes on heating to higher temperature decompose into lower alkanes, alkenes etc. Such a decomposition reaction into smaller fragments by the application of heat is called pyrolysis or cracking (9.28) Pyrolysis of alkanes is believed to be a free radical reaction. Preparation of oil gas or petrol gas from kerosene oil or petrol involves the principle of pyrolysis. For example, dodecane, a constituent of kerosene oil on heating to 973K in the presence of platinum, palladium or nickel gives a mixture of heptane and pentene. 12 26 Pt/Pd/Ni 973K 16 10 Other Products Dodecane Heptane Pentene (9.29) Reprint 2025-26",
+      "page": 9,
+      "level": "H2",
+      "importance_score": 0.42861613545479227
+    },
+    {
+      "document": "OrganicChem2.pdf",
+      "refined_text": "-Alkanes having six or more carbon atoms on heating to 773K at 10-20 atmospheric pressure in the presence of oxides of vanadium, molybdenum or chromium supported over alumina get dehydrogenated and cyclised to benzene and its homologues. This reaction is known as aromatization or reforming (9.26) Toluene (C ) is methyl derivative of benzene. Which alkane do you suggest for preparation of toluene ? 6. Reaction with steam Methane reacts with steam at 1273 K in the presence of nickel catalyst to form carbon monoxide and dihydrogen. This method is used for industrial preparation of dihydrogen gas CH 2IO Ni CO  +  3H (9.27)",
+      "page": 9,
+      "level": "H2",
+      "importance_score": 0.42159406544974853
+    },
+    {
+      "document": "OrganicChem3.pdf",
+      "refined_text": "-Alkanes having six or more carbon atoms on heating to 773K at 10-20 atmospheric pressure in the presence of oxides of vanadium, molybdenum or chromium supported over alumina get dehydrogenated and cyclised to benzene and its homologues. This reaction is known as aromatization or reforming (9.26) Toluene (C ) is methyl derivative of benzene. Which alkane do you suggest for preparation of toluene ? 6. Reaction with steam Methane reacts with steam at 1273 K in the presence of nickel catalyst to form carbon monoxide and dihydrogen. This method is used for industrial preparation of dihydrogen gas CH 2IO Ni CO  +  3H (9.27)",
+      "page": 9,
+      "level": "H2",
+      "importance_score": 0.42159406544974853
+    },
+    {
+      "document": "OrganicChem2.pdf",
+      "refined_text": "Higher alkanes on heating to higher temperature decompose into lower alkanes, alkenes etc. Such a decomposition reaction into smaller fragments by the application of heat is called pyrolysis or cracking (9.28) Pyrolysis of alkanes is believed to be a free radical reaction. Preparation of oil gas or petrol gas from kerosene oil or petrol involves the principle of pyrolysis. For example, dodecane, a constituent of kerosene oil on heating to 973K in the presence of platinum, palladium or nickel gives a mixture of heptane and pentene. 12 26 Pt/Pd/Ni 973K 16 10 Other Products Dodecane Heptane Pentene (9.29) Reprint 2025-26",
+      "page": 9,
+      "level": "H2",
+      "importance_score": 0.4204644327305884
+    },
+    {
+      "document": "OrganicChem3.pdf",
+      "refined_text": "Higher alkanes on heating to higher temperature decompose into lower alkanes, alkenes etc. Such a decomposition reaction into smaller fragments by the application of heat is called pyrolysis or cracking (9.28) Pyrolysis of alkanes is believed to be a free radical reaction. Preparation of oil gas or petrol gas from kerosene oil or petrol involves the principle of pyrolysis. For example, dodecane, a constituent of kerosene oil on heating to 973K in the presence of platinum, palladium or nickel gives a mixture of heptane and pentene. 12 26 Pt/Pd/Ni 973K 16 10 Other Products Dodecane Heptane Pentene (9.29) Reprint 2025-26",
+      "page": 9,
+      "level": "H2",
+      "importance_score": 0.4204644327305884
+    },
+    {
+      "document": "OrganicChem2.pdf",
+      "refined_text": "Write structural formulas of the following compounds : (i)\t 3, 4, 4, 5–Tetramethylheptane (ii)\t 2,5-Dimethyhexane Solution (i)\t CH – CH CH (ii)\t CH – CH – CH – CH – CH – CH Problem 9.5 Write structures for each of the following compounds. Why are the given names incorrect? Write correct IUPAC names. (i)\t 2-Ethylpentane (ii)\t 5-Ethyl – 3-methylheptane Solution (i)\t CH – CH – CH – CH – CH Longest chain is of six carbon atoms and not that of five. Hence, correct name is 3-Methylhexane. (ii)\t CH – CH – CH – CH – CH – CH – CH Numbering is to be started from the end which gives lower number to ethyl group. Hence, correct name is 3-ethyl-5- methylheptane. 9.2.2 Preparation Petroleum and natural gas are the main sources of alkanes. However, alkanes can be prepared by following methods : 1. From unsaturated hydrocarbons Dihydrogen gas adds to alkenes and alkynes in the presence of finely divided catalysts like platinum, palladium or nickel to form alkanes. This process is called hydrogenation . These metals adsorb dihydrogen gas on their surfaces and activate the hydrogen – hydrogen bond. Platinum and palladium catalyse the reaction at room temperature but relatively higher temperature and pressure are required with nickel catalysts. CH =CH Pt/Pd/Ni CH CH Ethene\b Propane   (9.1) CH –CH=CH Pt/Pd/Ni CH CH CH Propane\b Propane (9.2) CH –C C–H + 2H Pt/Pd/Ni CH CH CH Propyne\b Propane (9.3) 2. From alkyl halides i)\t Alkyl halides (except fluorides) on reduction with zinc and dilute hydrochloric acid give alkanes. CH–C1+H Zn,H CH HC1   (9.4) Chloromethane Methane Reprint 2025-26",
+      "page": 5,
+      "level": "H3",
+      "importance_score": 0.4178196691003697
+    },
+    {
+      "document": "OrganicChem3.pdf",
+      "refined_text": "Write structural formulas of the following compounds : (i)\t 3, 4, 4, 5–Tetramethylheptane (ii)\t 2,5-Dimethyhexane Solution (i)\t CH – CH CH (ii)\t CH – CH – CH – CH – CH – CH Problem 9.5 Write structures for each of the following compounds. Why are the given names incorrect? Write correct IUPAC names. (i)\t 2-Ethylpentane (ii)\t 5-Ethyl – 3-methylheptane Solution (i)\t CH – CH – CH – CH – CH Longest chain is of six carbon atoms and not that of five. Hence, correct name is 3-Methylhexane. (ii)\t CH – CH – CH – CH – CH – CH – CH Numbering is to be started from the end which gives lower number to ethyl group. Hence, correct name is 3-ethyl-5- methylheptane. 9.2.2 Preparation Petroleum and natural gas are the main sources of alkanes. However, alkanes can be prepared by following methods : 1. From unsaturated hydrocarbons Dihydrogen gas adds to alkenes and alkynes in the presence of finely divided catalysts like platinum, palladium or nickel to form alkanes. This process is called hydrogenation . These metals adsorb dihydrogen gas on their surfaces and activate the hydrogen – hydrogen bond. Platinum and palladium catalyse the reaction at room temperature but relatively higher temperature and pressure are required with nickel catalysts. CH =CH Pt/Pd/Ni CH CH Ethene\b Propane   (9.1) CH –CH=CH Pt/Pd/Ni CH CH CH Propane\b Propane (9.2) CH –C C–H + 2H Pt/Pd/Ni CH CH CH Propyne\b Propane (9.3) 2. From alkyl halides i)\t Alkyl halides (except fluorides) on reduction with zinc and dilute hydrochloric acid give alkanes. CH–C1+H Zn,H CH HC1   (9.4) Chloromethane Methane Reprint 2025-26",
+      "page": 5,
+      "level": "H3",
+      "importance_score": 0.4178196691003697
+    },
+    {
+      "document": "OrganicChem2.pdf",
+      "refined_text": "i)\t Sodium salts of carboxylic acids on heating with soda lime (mixture of sodium hydroxide and calcium oxide) give alkanes containing one carbon atom less than the carboxylic acid. This process of elimination of carbon dioxide from a carboxylic acid is known as decarboxylation CH COO Na +NaOH CaO CH +Na CO Sodium ethanoate Problem 9.6 Sodium salt of which acid will be needed for the preparation of propane ? Write chemical equation for the reaction. Solution Butanoic acid, CH CH CH COO Na + NaOH CaO CH CH CH +Na CO ii) Kolbe’s electrolytic method: An aqueous solution of sodium or potassium salt of a carboxylic acid on electrolysis gives alkane containing even number of carbon atoms at the anode. Electrolysts 2CH COO Na 2H O Sodium acetate CH CH 2CO 2NaOH (9.9) The reaction is supposed to follow the following path : i)\t 2CH COO Na 2CH +2Na ii) At anode: 2CH –C–O –02e 2CH 2C +2CO Acetate ion Acetate         Methyl free free radical     radical iii)\t H C + CH C–CH iv) At cathode : O+e –OH+ Methane cannot be prepared by this method. Why? 9.2.3 Properties Physical properties Alkanes are almost non-polar molecules because of the covalent nature of C-C and C-H bonds and due to very little difference of electronegativity between carbon and hydrogen atoms. They possess weak van der Waals forces. Due to the weak forces, the first four members, C to C are gases, C to C 17 are liquids and those containing 18 carbon atoms or more are solids at 298 K. They are colourless and odourless. What do you think about solubility of alkanes in water based upon non-polar nature of alkanes? Petrol is a mixture of hydrocarbons and is used as a fuel for automobiles. Petrol and lower fractions of petroleum are also used for  dry cleaning of clothes to remove grease stains. On the basis of this observation, what do you think about the nature of the greasy substance? You are correct if you say that grease (mixture of higher alkanes) is non- Reprint 2025-26",
+      "page": 6,
+      "level": "H2",
+      "importance_score": 0.4142682454631229
+    },
+    {
+      "document": "OrganicChem3.pdf",
+      "refined_text": "i)\t Sodium salts of carboxylic acids on heating with soda lime (mixture of sodium hydroxide and calcium oxide) give alkanes containing one carbon atom less than the carboxylic acid. This process of elimination of carbon dioxide from a carboxylic acid is known as decarboxylation CH COO Na +NaOH CaO CH +Na CO Sodium ethanoate Problem 9.6 Sodium salt of which acid will be needed for the preparation of propane ? Write chemical equation for the reaction. Solution Butanoic acid, CH CH CH COO Na + NaOH CaO CH CH CH +Na CO ii) Kolbe’s electrolytic method: An aqueous solution of sodium or potassium salt of a carboxylic acid on electrolysis gives alkane containing even number of carbon atoms at the anode. Electrolysts 2CH COO Na 2H O Sodium acetate CH CH 2CO 2NaOH (9.9) The reaction is supposed to follow the following path : i)\t 2CH COO Na 2CH +2Na ii) At anode: 2CH –C–O –02e 2CH 2C +2CO Acetate ion Acetate         Methyl free free radical     radical iii)\t H C + CH C–CH iv) At cathode : O+e –OH+ Methane cannot be prepared by this method. Why? 9.2.3 Properties Physical properties Alkanes are almost non-polar molecules because of the covalent nature of C-C and C-H bonds and due to very little difference of electronegativity between carbon and hydrogen atoms. They possess weak van der Waals forces. Due to the weak forces, the first four members, C to C are gases, C to C 17 are liquids and those containing 18 carbon atoms or more are solids at 298 K. They are colourless and odourless. What do you think about solubility of alkanes in water based upon non-polar nature of alkanes? Petrol is a mixture of hydrocarbons and is used as a fuel for automobiles. Petrol and lower fractions of petroleum are also used for  dry cleaning of clothes to remove grease stains. On the basis of this observation, what do you think about the nature of the greasy substance? You are correct if you say that grease (mixture of higher alkanes) is non- Reprint 2025-26",
+      "page": 6,
+      "level": "H2",
+      "importance_score": 0.4142682454631229
+    },
+    {
+      "document": "OrganicChem5.pdf",
+      "refined_text": "If sucrose is boiled with dilute HCl or SO in alcoholic solution, glucose and fructose are obtained in equal amounts. Preparation of Glucose 10.1.2.1 Glucose Reprint 2025-26",
+      "page": 1,
+      "level": "H2",
+      "importance_score": 0.41400000000000003
+    },
+    {
+      "document": "OrganicChem2.pdf",
+      "refined_text": "Hydrocarbons are of different types. Depending upon the types of carbon-carbon bonds present, they can be classified into three main categories – (i) saturated Hydrocarbons are the important sources of energy. Reprint 2025-26",
+      "page": 0,
+      "level": "H2",
+      "importance_score": 0.4105
+    },
+    {
+      "document": "OrganicChem3.pdf",
+      "refined_text": "Hydrocarbons are of different types. Depending upon the types of carbon-carbon bonds present, they can be classified into three main categories – (i) saturated Hydrocarbons are the important sources of energy. Reprint 2025-26",
+      "page": 0,
+      "level": "H2",
+      "importance_score": 0.4105
+    }
+  ],
+  "document_summaries": [
+    {
+      "name": "OrganicChem1.pdf",
+      "path": "/app/input/OrganicChem1.pdf",
+      "title": "8.1 General Introduction",
+      "total_headings": 61,
+      "processing_time": 5.224437475204468,
+      "confidence_score": 0.5,
+      "document_type": "technical"
+    },
+    {
+      "name": "OrganicChem2.pdf",
+      "path": "/app/input/OrganicChem2.pdf",
+      "title": "9.1\t CLASSIFICATION",
+      "total_headings": 59,
+      "processing_time": 5.007080316543579,
+      "confidence_score": 0.5,
+      "document_type": "technical"
+    },
+    {
+      "name": "OrganicChem3.pdf",
+      "path": "/app/input/OrganicChem3.pdf",
+      "title": "9.1\t CLASSIFICATION",
+      "total_headings": 59,
+      "processing_time": 4.8199615478515625,
+      "confidence_score": 0.5,
+      "document_type": "technical"
+    },
+    {
+      "name": "OrganicChem4.pdf",
+      "path": "/app/input/OrganicChem4.pdf",
+      "title": "",
+      "total_headings": 18,
+      "processing_time": 5.004056215286255,
+      "confidence_score": 0.5,
+      "document_type": "academic"
+    },
+    {
+      "name": "OrganicChem5.pdf",
+      "path": "/app/input/OrganicChem5.pdf",
+      "title": "10.1 Carbohydrates",
+      "total_headings": 26,
+      "processing_time": 3.303035020828247,
+      "confidence_score": 0.5,
+      "document_type": "technical"
+    }
+  ],
+  "dynamic_personas": [
+    "CH2 =CH2 + H2 \nPt/Pd/Ni\n CH3−CH3 \nEthene\b\nPropane",
+    "The change"
+  ],
+  "dynamic_jobs": [
+    "affects electronegativity"
+  ]
+}

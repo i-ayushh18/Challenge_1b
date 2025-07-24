@@ -1,0 +1,449 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Breakfast Ideas.pdf",
+      "Dinner Ideas - Mains_1.pdf",
+      "Dinner Ideas - Mains_2.pdf",
+      "Dinner Ideas - Mains_3.pdf",
+      "Dinner Ideas - Sides_1.pdf",
+      "Dinner Ideas - Sides_2.pdf",
+      "Dinner Ideas - Sides_3.pdf",
+      "Dinner Ideas - Sides_4.pdf",
+      "Lunch Ideas.pdf"
+    ],
+    "persona": "• \nStore",
+    "job_to_be_done": "frying",
+    "processing_timestamp": "2025-07-24T16:53:07.683310Z",
+    "total_sections_found": 323,
+    "sections_after_filtering": 323,
+    "ranking_strategy": "enhanced_ranking",
+    "processing_time_seconds": 6.353356,
+    "max_results": 15
+  },
+  "extracted_sections": [
+    {
+      "document": "Dinner Ideas - Sides_4.pdf",
+      "page": 12,
+      "section_title": "Sauerkraut",
+      "level": "H3",
+      "importance_rank": 1,
+      "importance_score": 0.41248528402795903,
+      "relevance_factors": {
+        "tfidf_similarity": 0.12954654340323093,
+        "section_length": 0.05,
+        "page_position": 0.89,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "page": 14,
+      "section_title": "Fruit and Nut Bars",
+      "level": "H3",
+      "importance_rank": 2,
+      "importance_score": 0.4086775727116063,
+      "relevance_factors": {
+        "tfidf_similarity": 0.11502726511234919,
+        "section_length": 0.09,
+        "page_position": 0.87,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Dinner Ideas - Sides_4.pdf",
+      "page": 9,
+      "section_title": "Rösti (Potato Pancakes)",
+      "level": "H3",
+      "importance_rank": 3,
+      "importance_score": 0.4068481278698184,
+      "relevance_factors": {
+        "tfidf_similarity": 0.09170365300787918,
+        "section_length": 0.115,
+        "page_position": 0.92,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "page": 5,
+      "section_title": "Kimchi",
+      "level": "H3",
+      "importance_rank": 4,
+      "importance_score": 0.4055366459083166,
+      "relevance_factors": {
+        "tfidf_similarity": 0.09967494810412475,
+        "section_length": 0.03,
+        "page_position": 0.96,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Dinner Ideas - Sides_4.pdf",
+      "page": 1,
+      "section_title": "Papadum",
+      "level": "H3",
+      "importance_rank": 5,
+      "importance_score": 0.4053807472236488,
+      "relevance_factors": {
+        "tfidf_similarity": 0.08803520139245528,
+        "section_length": 0.035,
+        "page_position": 1.0,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "page": 2,
+      "section_title": "Johnny Cakes",
+      "level": "H3",
+      "importance_rank": 6,
+      "importance_score": 0.4031062660195933,
+      "relevance_factors": {
+        "tfidf_similarity": 0.07859899838231667,
+        "section_length": 0.06,
+        "page_position": 0.99,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "page": 1,
+      "section_title": "Coxinha",
+      "level": "H3",
+      "importance_rank": 7,
+      "importance_score": 0.40089363983392623,
+      "relevance_factors": {
+        "tfidf_similarity": 0.07681743291814885,
+        "section_length": 0.035,
+        "page_position": 1.0,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "page": 3,
+      "section_title": "Add 1 cup water, lemon juice, and salt, simmer until rice is tender.",
+      "level": "H3",
+      "importance_rank": 8,
+      "importance_score": 0.3986666666666667,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.34,
+        "page_position": 0.98,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "page": 8,
+      "section_title": "Festival",
+      "level": "H3",
+      "importance_rank": 9,
+      "importance_score": 0.3979603466563736,
+      "relevance_factors": {
+        "tfidf_similarity": 0.08573419997426733,
+        "section_length": 0.04,
+        "page_position": 0.9299999999999999,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "page": 8,
+      "section_title": "Mandazi",
+      "level": "H3",
+      "importance_rank": 10,
+      "importance_score": 0.3975370027421248,
+      "relevance_factors": {
+        "tfidf_similarity": 0.08592584018864514,
+        "section_length": 0.035,
+        "page_position": 0.9299999999999999,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "page": 6,
+      "section_title": "Falafel",
+      "level": "H3",
+      "importance_rank": 11,
+      "importance_score": 0.3969851242302964,
+      "relevance_factors": {
+        "tfidf_similarity": 0.07954614390907419,
+        "section_length": 0.035,
+        "page_position": 0.95,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "page": 7,
+      "section_title": "Bolinho de Bacalhau",
+      "level": "H3",
+      "importance_rank": 12,
+      "importance_score": 0.3963460261028885,
+      "relevance_factors": {
+        "tfidf_similarity": 0.06544839859055453,
+        "section_length": 0.095,
+        "page_position": 0.94,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "page": 1,
+      "section_title": "Pour 1/4 cup of batter onto the skillet for each pancake.",
+      "level": "H3",
+      "importance_rank": 13,
+      "importance_score": 0.39516666666666667,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.285,
+        "page_position": 1.0,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "page": 2,
+      "section_title": "Croquetas",
+      "level": "H3",
+      "importance_rank": 14,
+      "importance_score": 0.39512991118190943,
+      "relevance_factors": {
+        "tfidf_similarity": 0.06240811128810686,
+        "section_length": 0.045,
+        "page_position": 0.99,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "page": 4,
+      "section_title": "Keftedes",
+      "level": "H3",
+      "importance_rank": 15,
+      "importance_score": 0.3947164213654939,
+      "relevance_factors": {
+        "tfidf_similarity": 0.06762438674706812,
+        "section_length": 0.04,
+        "page_position": 0.97,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Dinner Ideas - Sides_4.pdf",
+      "refined_text": "Ingredients 1 head cabbage 1 tablespoon sea salt 1 teaspoon caraway seeds Instructions Shred cabbage and mix with sea salt and caraway seeds. Pack cabbage into a jar and press down to release juices. Cover and let ferment at room temperature for 1-2 weeks. Store in the refrigerator and serve as needed. Shakshuka Ingredients 1 small onion 2 cloves garlic 1 bell pepper",
+      "page": 12,
+      "level": "H3",
+      "importance_score": 0.41248528402795903
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "Ingredients: 1 cup dates, pitted 1 cup mixed nuts 1/4 cup dried fruit 1 tablespoon honey Instructions: In a food processor, combine dates, mixed nuts, dried fruit, and honey. Process until the mixture comes together. Press the mixture into a greased baking dish. Refrigerate for at least 1 hour before cutting into bars. Store in an airtight container. Peanut Butter and Banana Smoothie Ingredients: 1 banana 1/2 cup Greek yogurt 1/2 cup almond milk 1 tablespoon peanut butter 1 tablespoon honey Instructions: In a blender, combine banana, Greek yogurt, almond milk, peanut butter, and honey. Blend until smooth.",
+      "page": 14,
+      "level": "H3",
+      "importance_score": 0.4086775727116063
+    },
+    {
+      "document": "Dinner Ideas - Sides_4.pdf",
+      "refined_text": "Ingredients 4 potatoes 1 small onion 1/4 cup flour 1 egg 1 teaspoon salt 1/2 teaspoon pepper Oil for frying Instructions Grate potatoes and onion, then squeeze out excess moisture. Mix with flour, beaten egg, salt, and pepper. Form mixture into patties. Fry in hot oil until golden on both sides. Drain on paper towels and serve warm. Rotkohl (Braised Red Cabbage) Ingredients 1 head red cabbage 1 small onion 1 apple",
+      "page": 9,
+      "level": "H3",
+      "importance_score": 0.4068481278698184
+    },
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "refined_text": "Ingredients 1 napa cabbage 1/4 cup sea salt 1 tablespoon sugar 2 tablespoons fish sauce 2 tablespoons gochugaru (Korean chili powder) 4 cloves garlic 1 inch ginger 4 green onions Instructions Cut cabbage into quarters and soak in salted water for 2 hours. Rinse and drain cabbage. Mix sugar, fish sauce, gochugaru, minced garlic, grated ginger, and chopped green onions in a bowl. Rub mixture onto cabbage leaves. Pack cabbage into a jar and let ferment at room temperature for 2-3 days. Store in the refrigerator and serve as needed. Kongnamul Muchim Ingredients 1 pound soybean sprouts 2 cloves garlic 2 tablespoons soy sauce 1 tablespoon sesame oil 1 tablespoon sesame seeds Instructions Blanch soybean sprouts in boiling water for 2 minutes, then drain. Mix minced garlic, soy sauce, sesame oil, and sesame seeds in a bowl. Toss sprouts with the dressing. Serve chilled. Labneh Ingredients 2 cups yogurt 1/2 teaspoon salt 1/4 cup olive oil Instructions Mix yogurt with salt. Place yogurt in a cheesecloth-lined strainer over a bowl. Let drain in the refrigerator for 24 hours. Transfer labneh to a serving dish and drizzle with olive oil. Serve with pita bread.",
+      "page": 5,
+      "level": "H3",
+      "importance_score": 0.4055366459083166
+    },
+    {
+      "document": "Dinner Ideas - Sides_4.pdf",
+      "refined_text": "Ingredients 1 cup urad dal flour 1/4 cup water 1/2 teaspoon salt Oil for frying Instructions Mix urad dal flour, water, and salt to form a dough. Roll dough into thin circles. Fry in hot oil until crispy. Drain on paper towels and serve. Patatas Bravas Ingredients 4 potatoes 1/4 cup olive oil",
+      "page": 1,
+      "level": "H3",
+      "importance_score": 0.4053807472236488
+    },
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "refined_text": "Ingredients 2 cups flour 1/4 cup sugar 1 tablespoon baking powder 1/2 teaspoon salt 1/4 cup butter 1/2 cup milk Oil for frying Instructions Mix flour, sugar, baking powder, and salt in a bowl. Cut in cold butter until mixture resembles coarse crumbs. Add milk and stir until dough forms. Roll out dough and cut into circles. Fry in hot oil until golden. Drain on paper towels and serve warm. Jollof Rice Ingredients 2 cups rice 1 small onion 2 cloves garlic 4 tomatoes 1/4 cup tomato paste 1/4 cup vegetable oil 1 teaspoon thyme 1 teaspoon curry powder 1 teaspoon salt 1/2 teaspoon pepper 4 cups chicken broth Instructions Sauté diced onion and minced garlic in vegetable oil until softened. Add diced tomatoes, tomato paste, thyme, curry powder, salt, and pepper, cook for 5 minutes. Stir in rice and cook for 2 minutes. Add chicken broth and bring to a boil. Reduce heat, cover, and simmer until rice is tender. Serve warm.",
+      "page": 2,
+      "level": "H3",
+      "importance_score": 0.4031062660195933
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "refined_text": "Ingredients 2 cups shredded chicken 1 small onion 2 cloves garlic 1/4 cup parsley 1/4 cup cream cheese 1 cup flour 1 cup breadcrumbs 2 eggs Oil for frying Instructions Sauté diced onion and minced garlic until softened. Mix shredded chicken with onion, garlic, chopped parsley, and cream cheese. Form mixture into drumstick shapes. Dredge in flour, dip in beaten eggs, and coat with breadcrumbs. Fry in hot oil until golden. Drain on paper towels and serve warm. Croque Monsieur Ingredients 8 slices bread 4 slices ham 1 cup grated Gruyère cheese 1/4 cup béchamel sauce",
+      "page": 1,
+      "level": "H3",
+      "importance_score": 0.40089363983392623
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "refined_text": "Place a spoonful of rice mixture on each grape leaf and roll tightly. Arrange dolmas in a pot, cover with water, and simmer for 30 minutes. Serve warm or chilled. Dumplings Ingredients 1 package dumpling wrappers 1/2 pound ground pork",
+      "page": 3,
+      "level": "H3",
+      "importance_score": 0.3986666666666667
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "refined_text": "Ingredients 2 cups flour 1/4 cup cornmeal 1/4 cup sugar 1 tablespoon baking powder 1/2 teaspoon salt 1/4 cup milk Oil for frying Instructions Mix flour, cornmeal, sugar, baking powder, and salt in a bowl. Add milk and stir until dough forms. Roll out dough and cut into strips. Fry in hot oil until golden. Drain on paper towels and serve warm. Focaccia Ingredients 2 1/4 teaspoons active dry yeast 1 teaspoon sugar 1 cup warm water 2 1/2 cups flour 1 teaspoon salt",
+      "page": 8,
+      "level": "H3",
+      "importance_score": 0.3979603466563736
+    },
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "refined_text": "Ingredients 2 cups flour 1/4 cup sugar 1 tablespoon baking powder 1/2 teaspoon salt 1/4 cup coconut milk 1/4 cup water Oil for frying Instructions Mix flour, sugar, baking powder, and salt in a bowl. Add coconut milk and water, stir until dough forms. Roll out dough and cut into triangles. Fry in hot oil until golden. Drain on paper towels and serve warm. Mandu Ingredients 1 package dumpling wrappers 1/2 pound ground pork 1/2 cup chopped cabbage 1/4 cup chopped green onions 2 cloves garlic 1 tablespoon soy sauce 1 teaspoon sesame oil Oil for frying Instructions Mix ground pork, cabbage, green onions, minced garlic, soy sauce, and sesame Place a spoonful of filling on each wrapper and fold to seal. Fry in hot oil until golden, then steam for 5 minutes. Serve with dipping sauce. Mango Sticky Rice Ingredients 1 cup glutinous rice 1 cup coconut milk 1/4 cup sugar 1/4 teaspoon salt 2 mangoes Instructions Rinse rice and soak in water for 1 hour. Steam rice until tender. Heat coconut milk with sugar and salt until dissolved.",
+      "page": 8,
+      "level": "H3",
+      "importance_score": 0.3975370027421248
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "refined_text": "Ingredients 1 can chickpeas 1 small onion 2 cloves garlic 1/4 cup parsley 1 teaspoon cumin 1 teaspoon coriander 1 teaspoon salt 1/4 cup flour Oil for frying Instructions Drain and rinse chickpeas. Blend chickpeas, diced onion, minced garlic, chopped parsley, cumin, coriander, and salt in a food processor. Add flour and mix until combined. Form mixture into balls and fry in hot oil until golden.",
+      "page": 6,
+      "level": "H3",
+      "importance_score": 0.3969851242302964
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "refined_text": "Ingredients 1 pound salted cod 4 potatoes 1 small onion 2 cloves garlic 1/4 cup parsley 2 eggs 1 cup breadcrumbs Oil for frying Instructions Soak salted cod in water overnight, then rinse and flake. Boil potatoes until tender, then mash. Mix cod with mashed potatoes, diced onion, minced garlic, chopped parsley, and beaten eggs. Form mixture into balls and coat with breadcrumbs. Fry in hot oil until golden. Drain on paper towels and serve warm. Bouillabaisse Ingredients 1 pound fish fillets 1/2 pound shrimp 1/2 pound mussels 1 small onion 2 cloves garlic 4 tomatoes 4 cups fish stock 1/2 cup white wine 1 teaspoon saffron 1 teaspoon thyme 1 teaspoon salt 1/2 teaspoon pepper Instructions Sauté diced onion and minced garlic in olive oil until softened.",
+      "page": 7,
+      "level": "H3",
+      "importance_score": 0.3963460261028885
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "Cook until bubbles form on the surface, then flip and cook until golden brown. Serve with syrup and your favorite toppings. Scrambled Eggs Ingredients: 4 large eggs 1/4 cup milk Salt and pepper to taste 1 tablespoon butter Instructions: In a bowl, whisk together eggs, milk, salt, and pepper. Heat a non-stick skillet over medium heat and melt the butter. Pour the egg mixture into the skillet. Cook, stirring gently, until the eggs are set but still soft. Serve immediately. French Toast Ingredients: 4 slices of bread 2 large eggs 1/2 cup milk 1 teaspoon vanilla extract",
+      "page": 1,
+      "level": "H3",
+      "importance_score": 0.39516666666666667
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "refined_text": "Ingredients 1/2 cup butter 1/2 cup flour 2 cups milk 1/2 cup ham 1/4 cup grated cheese 1 teaspoon salt 1/2 teaspoon nutmeg 1 cup breadcrumbs 2 eggs Oil for frying Instructions Melt butter in a saucepan, stir in flour to make a roux. Gradually add milk, stirring constantly until thickened. Stir in diced ham, grated cheese, salt, and nutmeg. Let mixture cool, then form into croquettes. Dredge croquettes in flour, dip in beaten eggs, and coat with breadcrumbs. Fry in hot oil until golden. Drain on paper towels and serve warm. Dal Tadka Ingredients 1 cup lentils 4 cups water 1 small onion 2 cloves garlic 1 teaspoon cumin 1 teaspoon turmeric 1 teaspoon coriander 1 teaspoon garam masala 1 teaspoon salt 2 tablespoons oil Instructions",
+      "page": 2,
+      "level": "H3",
+      "importance_score": 0.39512991118190943
+    },
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "refined_text": "Ingredients 1/2 pound ground beef 1/2 pound ground pork 1 small onion 2 cloves garlic 1/4 cup breadcrumbs 1 egg 1 teaspoon oregano 1 teaspoon mint 1 teaspoon salt 1/2 teaspoon pepper Oil for frying Instructions Mix ground beef, ground pork, diced onion, minced garlic, breadcrumbs, beaten egg, oregano, mint, salt, and pepper in a bowl. Form mixture into meatballs. Heat oil in a pan and fry meatballs until golden. Drain on paper towels and serve warm. Kibbeh Ingredients 1 cup bulgur 1/2 pound ground beef 1 small onion 1/4 cup pine nuts 1 teaspoon cumin 1 teaspoon allspice 1 teaspoon salt Oil for frying Instructions Soak bulgur in water until tender, then drain. Mix bulgur with ground beef, diced onion, pine nuts, cumin, allspice, and salt. Form mixture into balls or patties. Fry in hot oil until golden. Drain on paper towels and serve.",
+      "page": 4,
+      "level": "H3",
+      "importance_score": 0.3947164213654939
+    }
+  ],
+  "document_summaries": [
+    {
+      "name": "Breakfast Ideas.pdf",
+      "path": "/app/input/Breakfast Ideas.pdf",
+      "title": "",
+      "total_headings": 42,
+      "processing_time": 0.3751718997955322,
+      "confidence_score": 0.5,
+      "document_type": "document"
+    },
+    {
+      "name": "Dinner Ideas - Mains_1.pdf",
+      "path": "/app/input/Dinner Ideas - Mains_1.pdf",
+      "title": "",
+      "total_headings": 27,
+      "processing_time": 0.469696044921875,
+      "confidence_score": 0.5,
+      "document_type": "technical"
+    },
+    {
+      "name": "Dinner Ideas - Mains_2.pdf",
+      "path": "/app/input/Dinner Ideas - Mains_2.pdf",
+      "title": "Roast Chicken",
+      "total_headings": 31,
+      "processing_time": 0.4335906505584717,
+      "confidence_score": 0.5,
+      "document_type": "document"
+    },
+    {
+      "name": "Dinner Ideas - Mains_3.pdf",
+      "path": "/app/input/Dinner Ideas - Mains_3.pdf",
+      "title": "Peking Duck",
+      "total_headings": 18,
+      "processing_time": 0.2570986747741699,
+      "confidence_score": 0.5,
+      "document_type": "technical"
+    },
+    {
+      "name": "Dinner Ideas - Sides_1.pdf",
+      "path": "/app/input/Dinner Ideas - Sides_1.pdf",
+      "title": "",
+      "total_headings": 39,
+      "processing_time": 0.48463916778564453,
+      "confidence_score": 0.5,
+      "document_type": "document"
+    },
+    {
+      "name": "Dinner Ideas - Sides_2.pdf",
+      "path": "/app/input/Dinner Ideas - Sides_2.pdf",
+      "title": "Coleslaw",
+      "total_headings": 44,
+      "processing_time": 0.4150960445404053,
+      "confidence_score": 0.5,
+      "document_type": "document"
+    },
+    {
+      "name": "Dinner Ideas - Sides_3.pdf",
+      "path": "/app/input/Dinner Ideas - Sides_3.pdf",
+      "title": "Ingredients",
+      "total_headings": 41,
+      "processing_time": 0.44661402702331543,
+      "confidence_score": 0.5,
+      "document_type": "technical"
+    },
+    {
+      "name": "Dinner Ideas - Sides_4.pdf",
+      "path": "/app/input/Dinner Ideas - Sides_4.pdf",
+      "title": "Pajeon (Pancakes)",
+      "total_headings": 41,
+      "processing_time": 0.42928528785705566,
+      "confidence_score": 0.5,
+      "document_type": "document"
+    },
+    {
+      "name": "Lunch Ideas.pdf",
+      "path": "/app/input/Lunch Ideas.pdf",
+      "title": "",
+      "total_headings": 40,
+      "processing_time": 0.2757413387298584,
+      "confidence_score": 0.5,
+      "document_type": "document"
+    }
+  ],
+  "dynamic_personas": [
+    "• \nStore",
+    "Soak",
+    ""
+  ],
+  "dynamic_jobs": [
+    "frying",
+    "Serve"
+  ]
+}

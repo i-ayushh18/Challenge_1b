@@ -1,0 +1,388 @@
+{
+  "metadata": {
+    "input_documents": [
+      "WHO_1.pdf",
+      "WHO_2.pdf",
+      "WHO_3.pdf"
+    ],
+    "persona": "Dans",
+    "job_to_be_done": "d’azithromycine Inc.",
+    "processing_timestamp": "2025-07-24T16:54:08.412940Z",
+    "total_sections_found": 119,
+    "sections_after_filtering": 119,
+    "ranking_strategy": "enhanced_ranking",
+    "processing_time_seconds": 3.808053,
+    "max_results": 15
+  },
+  "extracted_sections": [
+    {
+      "document": "WHO_1.pdf",
+      "page": 13,
+      "section_title": "Au 21 avril 2025, 102,6 millions de personnes vivaient dans les On 21 April 2025, 102.6 million people lived in the",
+      "level": "H3",
+      "importance_rank": 1,
+      "importance_score": 0.4506597294844812,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0962326570445362,
+        "section_length": 0.575,
+        "page_position": 0.88,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "WHO_1.pdf",
+      "page": 2,
+      "section_title": "Au 17 juillet 2025, l’élimination du trachome en tant que",
+      "level": "H3",
+      "importance_rank": 2,
+      "importance_score": 0.4359229672328706,
+      "relevance_factors": {
+        "tfidf_similarity": 0.10439075141550971,
+        "section_length": 0.285,
+        "page_position": 0.99,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "WHO_1.pdf",
+      "page": 2,
+      "section_title": "Tableau 1",
+      "level": "H2",
+      "importance_rank": 3,
+      "importance_score": 0.43524205248836534,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0793551312209134,
+        "section_length": 0.045,
+        "page_position": 0.99,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "WHO_2.pdf",
+      "page": 12,
+      "section_title": "35.\tAddison-Smith B, Milic A, Dwarakanath D, Simunovic M, Van Haeften S, Timbrell V, Davies",
+      "level": "H2",
+      "importance_rank": 4,
+      "importance_score": 0.4345,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.455,
+        "page_position": 0.89,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "WHO_2.pdf",
+      "page": 12,
+      "section_title": "23.\tDamialis A, Kaimakamis E, Konoglou M, Akritidis I, Traidl-Hoffmann C, Gioulekas D.",
+      "level": "H2",
+      "importance_rank": 5,
+      "importance_score": 0.43200000000000005,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.43,
+        "page_position": 0.89,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "WHO_1.pdf",
+      "page": 2,
+      "section_title": "Au 21 avril 2025, le nombre de pays où le trachome était un",
+      "level": "H3",
+      "importance_rank": 6,
+      "importance_score": 0.4265959266029523,
+      "relevance_factors": {
+        "tfidf_similarity": 0.07857314984071416,
+        "section_length": 0.295,
+        "page_position": 0.99,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "WHO_1.pdf",
+      "page": 13,
+      "section_title": "113.8 million living in districts in which MDA was indi-",
+      "level": "H3",
+      "importance_rank": 7,
+      "importance_score": 0.4258102887453358,
+      "relevance_factors": {
+        "tfidf_similarity": 0.10785905519667281,
+        "section_length": 0.28,
+        "page_position": 0.88,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "WHO_1.pdf",
+      "page": 2,
+      "section_title": "On 21 April 2025, the prevalence of TT unknown to the Au 21 avril 2025, la prévalence des cas de TT «inconnus du",
+      "level": "H3",
+      "importance_rank": 8,
+      "importance_score": 0.42166666666666675,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.56,
+        "page_position": 0.99,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "WHO_1.pdf",
+      "page": 13,
+      "section_title": "About 71% of TT surgery globally in 2024 was performed",
+      "level": "H3",
+      "importance_rank": 9,
+      "importance_score": 0.42137427463082033,
+      "relevance_factors": {
+        "tfidf_similarity": 0.09926901991038402,
+        "section_length": 0.27,
+        "page_position": 0.88,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "WHO_1.pdf",
+      "page": 14,
+      "section_title": "Some 73% of antibiotic treatments given in 2024 were",
+      "level": "H3",
+      "importance_rank": 10,
+      "importance_score": 0.42111188930486565,
+      "relevance_factors": {
+        "tfidf_similarity": 0.10361305659549742,
+        "section_length": 0.26,
+        "page_position": 0.87,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "WHO_2.pdf",
+      "page": 4,
+      "section_title": "Box 1. Case study: thunderstorm-induced asthma",
+      "level": "H2",
+      "importance_rank": 11,
+      "importance_score": 0.42000000000000004,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.23,
+        "page_position": 0.97,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "WHO_1.pdf",
+      "page": 1,
+      "section_title": "C. trachomatis",
+      "level": "H2",
+      "importance_rank": 12,
+      "importance_score": 0.41872420812804756,
+      "relevance_factors": {
+        "tfidf_similarity": 0.029310520320118993,
+        "section_length": 0.07,
+        "page_position": 1.0,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "WHO_1.pdf",
+      "page": 13,
+      "section_title": "In 2024, a total of 46.7 million doses of antibiotics were En 2024, 46,7 millions de doses d’antibiotiques ont été distri-",
+      "level": "H3",
+      "importance_rank": 13,
+      "importance_score": 0.41566666666666674,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.61,
+        "page_position": 0.88,
+        "heading_level": 0.6666666666666667,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "WHO_1.pdf",
+      "page": 2,
+      "section_title": "Table 1",
+      "level": "H2",
+      "importance_rank": 14,
+      "importance_score": 0.415609289333575,
+      "relevance_factors": {
+        "tfidf_similarity": 0.032773223333937396,
+        "section_length": 0.035,
+        "page_position": 0.99,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    },
+    {
+      "document": "WHO_1.pdf",
+      "page": 2,
+      "section_title": "Table 1, Map 1 Tableau 1, Carte 1",
+      "level": "H2",
+      "importance_rank": 15,
+      "importance_score": 0.4155,
+      "relevance_factors": {
+        "tfidf_similarity": 0.0,
+        "section_length": 0.165,
+        "page_position": 0.99,
+        "heading_level": 0.8333333333333334,
+        "font_size": 0.6666666666666666
+      }
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "WHO_1.pdf",
+      "refined_text": "Au 21 avril 2025, 102,6 millions de personnes vivaient dans les On 21 April 2025, 102.6 million people lived in the",
+      "page": 13,
+      "level": "H3",
+      "importance_score": 0.4506597294844812
+    },
+    {
+      "document": "WHO_1.pdf",
+      "refined_text": "problème de santé publique avait été validée par l’OMS dans 25 pays (Arabie saoudite, Bénin, Burundi, Cambodge, Chine, Gambie, Ghana, Inde, Iraq, Malawi, Mali, Maroc, Mauritanie, Mexique, Myanmar, Népal, Oman, Pakistan, Papouasie-Nouvelle-Guinée, République démocratique populaire lao, République islamique d’Iran, Sénégal, Togo, Vanuatu et Viet Nam). Six autres pays (Botswana, Fidji, Guinée-Bissau, Libye, Namibie et Tunisie) ont indiqué avoir atteint les cibles de prévalence fixées pour l’élimination Tableau 1, Carte 1 ). Les pays dans lesquels on estime qu’il n’est pas nécessaire d’intervenir ne sont pas répertoriés dans le Tableau 1 , notamment ceux qui n’ont pas d’antécé- dents récents de trachome (comme tous les pays de la Région européenne de l’OMS) et ceux qui ont fait l’objet d’une enquête récente (comme le Congo ). Au 21 avril 2025, le nombre de pays où le trachome était un problème de santé publique sur une partie au moins du terri- toire s’établissait à 32, d’après les données de prévalence par district les plus récentes contenues dans la base de données GET2020. Trois autres pays pourraient nécessiter des interven- tions, mais les enquêtes requises dans les zones d’endémie présumées n’ont pas encore été menées à bien. Des efforts sont en cours pour réaliser ces enquêtes. Populations nécessitant des interventions Au 21 avril 2025, la prévalence des cas de TT «inconnus du système de santé» parmi les personnes âgées de ≥15 ans était ≥0.2% dans 1647 districts dans le monde. En s’appuyant sur les WHO Alliance for the Global Elimination of Trachoma by 2020. Geneva: World Health Organization; 1993 ( https://www.who.int/initiatives/who-alliance-for-the- global-elimination-of-trachoma-by-2020# , accessed June 2025). See No. 28, 2024, pp. 363–380 Missamou F et al. A population-based trachoma prevalence survey covering seven districts of Sangha and Likouala departments, Republic of the Congo. Ophthalmic Epidemiol. 2018;25(supp1):155–61. doi:10.1080/09286586.2018.1546878. WHO Alliance for the Global Elimination of Trachoma by 2020. Genève: Organisation mondiale de la Santé; 1993 ( https://www.who.int/initiatives/who-alliance-for-the-global-elimination-of- trachoma-by-2020# , consulté en juin 2025). Voir N 28, 2024, pp. 363-380 Missamou F et al. A population-based trachoma prevalence survey covering seven districts of Sangha and Likouala departments, Republic of the Congo. Ophthalmic Epidemiol. 2018;25(supp1):155–61. doi:10.1080/09286586.2018.1546878.",
+      "page": 2,
+      "level": "H3",
+      "importance_score": 0.4359229672328706
+    },
+    {
+      "document": "WHO_1.pdf",
+      "refined_text": "); ces chiffres ont servi de dénominateurs pour le calcul de la couverture des interventions. Afin de fournir un aperçu aussi récent que possible des progrès réalisés vers l’éli- mination mondiale du trachome en tant que problème de santé publique, un récapitulatif des estimations au 21 avril 2025 de la prévalence dans les districts, tirées de la base de données GET 2020, est également présenté ( Tableau 1 ). La prévalence ponctuelle au 21 avril 2025 peut être comparée à celle du 15 avril 2024. Situation du trachome dans les pays Au 17 juillet 2025, l’élimination du trachome en tant que problème de santé publique avait été validée par l’OMS dans 25 pays (Arabie saoudite, Bénin, Burundi, Cambodge, Chine, Gambie, Ghana, Inde, Iraq, Malawi, Mali, Maroc, Mauritanie, Mexique, Myanmar, Népal, Oman, Pakistan, Papouasie-Nouvelle-Guinée, République démocratique populaire lao, République islamique d’Iran, Sénégal, Togo, Vanuatu et Viet Nam). Six autres pays (Botswana, Fidji, Guinée-Bissau, Libye, Namibie et Tunisie) ont indiqué avoir atteint les cibles de prévalence fixées pour l’élimination Tableau 1, Carte 1 ). Les pays dans lesquels on estime qu’il n’est pas nécessaire d’intervenir ne sont pas répertoriés dans le Tableau 1 , notamment ceux qui n’ont pas d’antécé- dents récents de trachome (comme tous les pays de la Région européenne de l’OMS) et ceux qui ont fait l’objet d’une enquête récente (comme le Congo ).",
+      "page": 2,
+      "level": "H2",
+      "importance_score": 0.43524205248836534
+    },
+    {
+      "document": "WHO_2.pdf",
+      "refined_text": "JM. Medium-term increases in ambient grass pollen between 1994-1999 and 2016-2020 in a subtropical climate zone. Front Allergy. 2021;2:705313 ( https://doi.org/10.3389/ falgy.2021.705313 ). 36.\tReid CE, Gamble JL. Aeroallergens, allergic disease, and climate change: impacts and adaptation. EcoHealth. 2009;6(3):458-70 ( https://doi.org/10.1007/s10393-009-0261-x ).",
+      "page": 12,
+      "level": "H2",
+      "importance_score": 0.4345
+    },
+    {
+      "document": "WHO_2.pdf",
+      "refined_text": "Estimating the abundance of airborne pollen and fungal spores at variable elevations using an aircraft: how high can they fly? Sci Rep. 2017;7(1):44535 ( https://doi.org/10.1038/ srep44535 ). 24.\tBeggs P J. Thunderstorm asthma and climate change. JAMA. 2024;331(10):878-9 https://doi.org/10.1001/jama.2023.26649 ). 25.\tFan C, Li X, Cai H, Tong X, Ai L, Li Y et al. Epidemic thunderstorm asthma in Hohhot, Northern China: a retrospective analysis of clinical characteristics in 155 patients. J Allergy Clin Immunol Pract. 2024;12(9):2514-6.e1 ( https://doi.org/10.1016/j. jaip.2024.06.012 ). 26.\tLuschkova D, Traidl-Hoffmann C, Ludwig A. Climate change and allergies. Allergo J Int. 2022;31:114-120 ( https://doi.org/10.1007/s40629-022-00212-x ). 27.\tMajd A, Chehregani A, Moin M, Gholami M, Kohno S, Nabe T, Shariatzade M. The effects of air pollution on structures, proteins and allergenicity of pollen grains. Aerobiologia. 2004;20:111-8 ( https://doi.org/10.1023/b:aero.0000032950.12169.38 ). 28.\tSedghy F, Varasteh A-R, Sankian M, Moghadam M. Interaction between air pollutants and pollen grains: the role on the rising trend in allergy. Rep Biochem Mol Biol. 2018;6(2):219 https://pubmed.ncbi.nlm.nih.gov/29766006/ ). 29.\tSingh AB, Kumar P. Climate change and allergic diseases: an overview. Front Allergy. 2022;3:964987 ( https://doi.org/10.3389/falgy.2022.964987 ). 30.\tAir pollution and asthma. Arlington, VA: Asthma and Allergy Foundation of America; 2025 https://aafa.org/asthma/asthma-triggers-causes/air-pollution-smog-asthma/ ). 31.\tJacquemin B, Burte E, Savouré M, Heinrich J. Outdoor air pollution and asthma in a changing climate. In: Nadif R, editor. Asthma in the 21st century. Elsevier: Academic Press; 2022;151-172. 32.\tSixth assessment report. Working Group II. Intergovernmental Panel on Climate Change; 2023 ( https://www.ipcc.ch/assessment-report/ar6/ ). 33.\tRojo J, Oteros J, Picornell A, Maya-Manzano JM, Damialis A, Zink K, et al. Effects of future climate change on birch abundance and their pollen load. Glob Chang Biol. 2021;27(22):5934-49 ( https://doi.org/10.1111/gcb.15824 ). 34.\tBergmann KC, Brehler R, Endler C, Höflich C, Kespohl S, Plaza M, et al. Impact of climate change on allergic diseases in Germany. J Health Monit. 2023;8(Suppl 4):76-102 ( https:// doi.org/10.25646/11654 ). 35.\tAddison-Smith B, Milic A, Dwarakanath D, Simunovic M, Van Haeften S, Timbrell V, Davies JM. Medium-term increases in ambient grass pollen between 1994-1999 and 2016-2020 in a subtropical climate zone. Front Allergy. 2021;2:705313 ( https://doi.org/10.3389/ falgy.2021.705313 ). 36.\tReid CE, Gamble JL. Aeroallergens, allergic disease, and climate change: impacts and adaptation. EcoHealth. 2009;6(3):458-70 ( https://doi.org/10.1007/s10393-009-0261-x ).",
+      "page": 12,
+      "level": "H2",
+      "importance_score": 0.43200000000000005
+    },
+    {
+      "document": "WHO_1.pdf",
+      "refined_text": "problème de santé publique sur une partie au moins du terri- toire s’établissait à 32, d’après les données de prévalence par district les plus récentes contenues dans la base de données GET2020. Trois autres pays pourraient nécessiter des interven- tions, mais les enquêtes requises dans les zones d’endémie présumées n’ont pas encore été menées à bien. Des efforts sont en cours pour réaliser ces enquêtes. Populations nécessitant des interventions Au 21 avril 2025, la prévalence des cas de TT «inconnus du système de santé» parmi les personnes âgées de ≥15 ans était ≥0.2% dans 1647 districts dans le monde. En s’appuyant sur les WHO Alliance for the Global Elimination of Trachoma by 2020. Geneva: World Health Organization; 1993 ( https://www.who.int/initiatives/who-alliance-for-the- global-elimination-of-trachoma-by-2020# , accessed June 2025). See No. 28, 2024, pp. 363–380 Missamou F et al. A population-based trachoma prevalence survey covering seven districts of Sangha and Likouala departments, Republic of the Congo. Ophthalmic Epidemiol. 2018;25(supp1):155–61. doi:10.1080/09286586.2018.1546878. WHO Alliance for the Global Elimination of Trachoma by 2020. Genève: Organisation mondiale de la Santé; 1993 ( https://www.who.int/initiatives/who-alliance-for-the-global-elimination-of- trachoma-by-2020# , consulté en juin 2025). Voir N 28, 2024, pp. 363-380 Missamou F et al. A population-based trachoma prevalence survey covering seven districts of Sangha and Likouala departments, Republic of the Congo. Ophthalmic Epidemiol. 2018;25(supp1):155–61. doi:10.1080/09286586.2018.1546878.",
+      "page": 2,
+      "level": "H3",
+      "importance_score": 0.4265959266029523
+    },
+    {
+      "document": "WHO_1.pdf",
+      "refined_text": "cated for trachoma elimination in that year ( Figure 2 ), up from 29% in 2023. Antibiotics were distributed in 417 (45%) of the 932 districts that qualified during 2024; antibiotics were also distributed for trachoma elimina- évaluations précédentes du nombre de personnes atteintes de TT, la charge mondiale totale du TT a été estimée à 1,2 million de cas au 21 avril 2025 (soit 284 000 cas de moins que le nombre estimé en 15 avril 2024). Au total, 113,8 millions de personnes vivaient dans les 932 districts où la prévalence de la TF parmi les enfants âgés de 1-9 ans était ≥5% à un moment donné de l’année 2024 et étaient susceptibles de remplir les conditions requises pour bénéficier des composantes A, N et CE de la stratégie CHANCE cette année-là. Sur ces 113,8 millions de personnes, 93% (105,5 millions) vivaient dans la Région africaine de l’OMS, dont 62% (70,1 millions) en Éthiopie (contre 55 % en 2023). Dans la Région européenne et dans la Région de l’Asie du Sud-Est de l’OMS, aucun district n’a été identifié comme nécessitant une mise en œuvre des composantes A, N et CE de la stratégie CHANCE aux fins de l’élimination du trachome ( Tableau 1 ). Au 21 avril 2025, 102,6 millions de personnes vivaient dans les 848 districts où la prévalence de la TF était ≥5% ( Tableau 1 ), soit une baisse de 0,6% par rapport aux 103,2 millions de personnes qui étaient dans cette situation au 15 avril 2024. Depuis 2015, on observe un recul progressif du nombre de districts dans le monde appartenant à chacune des catégories de prévalence de la TF supérieure au seuil fixé, avec une dimi- nution particulièrement notable (82%) du nombre de districts où la prévalence de la TF est ≥30% ( Figure 1 ). Mise en œuvre de la stratégie CHANCE, 2024 En 2024, 87 349 personnes ont été prises en charge pour un TT dans le monde, soit une baisse de 33% par rapport aux 130 746  personnes prises en charge en 2023. Environ 71% des traitements chirurgicaux du TT pratiqués dans le monde en 2024 ont eu lieu en Éthiopie ( Tableau 1 ). Sur les 35 pays ayant fait état d’interventions chirurgicales contre le TT en 2024, 34 ont transmis des données ventilées selon le sexe, qui repré- sentent 98% des personnes opérées pour un TT à l’échelle mondiale; 70% d’entre elles étaient de sexe féminin. En 2024, 46,7 millions de doses d’antibiotiques ont été distri- buées au total à des fins d’élimination du trachome et le nombre de personnes traitées était de 44,4 millions ( Tableau 1 ), contre 32,9 millions en 2023 et 36,2 millions en 2022. Certaines de ces personnes ont reçu des antibiotiques lors d’une intervention chirurgicale contre le TT, d’autres ont reçu un traitement indi- viduel suite à un diagnostic de trachome évolutif,et d’autres encore ont reçu des antibiotiques dans le cadre de campagnes d’AMM menées à plusieurs reprises au cours de l’année civile pour endiguer la persistance ou la recrudescence du trachome évolutif. Les 44,4 millions de personnes traitées en 2024 repré- sentent 39% des 113,8 millions d’habitants des districts où une AMM était indiquée pour l’élimination du trachome cette année-là ( Figure 2 ); par comparaison, ce pourcentage était de 29% en 2023. Des antibiotiques ont été distribués dans 417 (45%) des 932 districts remplissant les conditions requises en 2024; ils ont également été distribués dans 8 autres districts à Flueckiger RM et al. The global burden of trichiasis in 2016. PLoS Negl Trop Dis. 2019;13(11):e0007835. doi:10.1371/journal.pntd.0007835. Informal consultation on end-game challenges for trachoma elimination, Task Force for Global Health, Decatur, United States of America, 7–9 December 2021. Geneva: World Health Organization; 2022 ( https://iris.who.int/handle/10665/363591 accessed June 2025). Flueckiger RM et al. The global burden of trichiasis in 2016. PLoS Negl Trop Dis. 2019;13(11):e0007835. doi:10.1371/journal.pntd.0007835. Informal consultation on end-game challenges for trachoma elimination, Task Force for Global Health, Decatur, United States of America, 7–9 December 2021. Genève: Organisation mondiale de la Santé; 2022 ( https://iris.who.int/handle/10665/363591 , consulté en juin 2025).",
+      "page": 13,
+      "level": "H3",
+      "importance_score": 0.4258102887453358
+    },
+    {
+      "document": "WHO_1.pdf",
+      "refined_text": "On 21 April 2025, the prevalence of TT unknown to the Au 21 avril 2025, la prévalence des cas de TT «inconnus du",
+      "page": 2,
+      "level": "H3",
+      "importance_score": 0.42166666666666675
+    },
+    {
+      "document": "WHO_1.pdf",
+      "refined_text": "in Ethiopia ( Table 1 ). Of the 35 countries that reported TT surgery in 2024, 34 reported gender-disaggregated data, covering 98% of individuals operated on for TT worldwide; of these, 70% were female. In 2024, a total of 46.7 million doses of antibiotics were distributed to 44.4 million people for elimination of trachoma ( Table 1 ). The 44.4 million people can be compared with 32.9 million people treated in 2023 and 36.2 million people treated in 2022. Some of these people received antibiotics at the time of TT surgery; some received individual treatment because active trachoma was diagnosed; and some received antibiotics as part of MDA campaigns more than once in the calen- dar year, as part of work to address persistent and recrudescent active trachoma. The 44.4 million people given antibiotics in 2024 represent 39% of the 113.8 million living in districts in which MDA was indi- cated for trachoma elimination in that year ( Figure 2 ), up from 29% in 2023. Antibiotics were distributed in 417 (45%) of the 932 districts that qualified during 2024; antibiotics were also distributed for trachoma elimina- évaluations précédentes du nombre de personnes atteintes de TT, la charge mondiale totale du TT a été estimée à 1,2 million de cas au 21 avril 2025 (soit 284 000 cas de moins que le nombre estimé en 15 avril 2024). Au total, 113,8 millions de personnes vivaient dans les 932 districts où la prévalence de la TF parmi les enfants âgés de 1-9 ans était ≥5% à un moment donné de l’année 2024 et étaient susceptibles de remplir les conditions requises pour bénéficier des composantes A, N et CE de la stratégie CHANCE cette année-là. Sur ces 113,8 millions de personnes, 93% (105,5 millions) vivaient dans la Région africaine de l’OMS, dont 62% (70,1 millions) en Éthiopie (contre 55 % en 2023). Dans la Région européenne et dans la Région de l’Asie du Sud-Est de l’OMS, aucun district n’a été identifié comme nécessitant une mise en œuvre des composantes A, N et CE de la stratégie CHANCE aux fins de l’élimination du trachome ( Tableau 1 ). Au 21 avril 2025, 102,6 millions de personnes vivaient dans les 848 districts où la prévalence de la TF était ≥5% ( Tableau 1 ), soit une baisse de 0,6% par rapport aux 103,2 millions de personnes qui étaient dans cette situation au 15 avril 2024. Depuis 2015, on observe un recul progressif du nombre de districts dans le monde appartenant à chacune des catégories de prévalence de la TF supérieure au seuil fixé, avec une dimi- nution particulièrement notable (82%) du nombre de districts où la prévalence de la TF est ≥30% ( Figure 1 ). Mise en œuvre de la stratégie CHANCE, 2024 En 2024, 87 349 personnes ont été prises en charge pour un TT dans le monde, soit une baisse de 33% par rapport aux 130 746  personnes prises en charge en 2023. Environ 71% des traitements chirurgicaux du TT pratiqués dans le monde en 2024 ont eu lieu en Éthiopie ( Tableau 1 ). Sur les 35 pays ayant fait état d’interventions chirurgicales contre le TT en 2024, 34 ont transmis des données ventilées selon le sexe, qui repré- sentent 98% des personnes opérées pour un TT à l’échelle mondiale; 70% d’entre elles étaient de sexe féminin. En 2024, 46,7 millions de doses d’antibiotiques ont été distri- buées au total à des fins d’élimination du trachome et le nombre de personnes traitées était de 44,4 millions ( Tableau 1 ), contre 32,9 millions en 2023 et 36,2 millions en 2022. Certaines de ces personnes ont reçu des antibiotiques lors d’une intervention chirurgicale contre le TT, d’autres ont reçu un traitement indi- viduel suite à un diagnostic de trachome évolutif,et d’autres encore ont reçu des antibiotiques dans le cadre de campagnes d’AMM menées à plusieurs reprises au cours de l’année civile pour endiguer la persistance ou la recrudescence du trachome évolutif. Les 44,4 millions de personnes traitées en 2024 repré- sentent 39% des 113,8 millions d’habitants des districts où une AMM était indiquée pour l’élimination du trachome cette année-là ( Figure 2 ); par comparaison, ce pourcentage était de 29% en 2023. Des antibiotiques ont été distribués dans 417 (45%) des 932 districts remplissant les conditions requises en 2024; ils ont également été distribués dans 8 autres districts à Flueckiger RM et al. The global burden of trichiasis in 2016. PLoS Negl Trop Dis. 2019;13(11):e0007835. doi:10.1371/journal.pntd.0007835. Informal consultation on end-game challenges for trachoma elimination, Task Force for Global Health, Decatur, United States of America, 7–9 December 2021. Geneva: World Health Organization; 2022 ( https://iris.who.int/handle/10665/363591 accessed June 2025). Flueckiger RM et al. The global burden of trichiasis in 2016. PLoS Negl Trop Dis. 2019;13(11):e0007835. doi:10.1371/journal.pntd.0007835. Informal consultation on end-game challenges for trachoma elimination, Task Force for Global Health, Decatur, United States of America, 7–9 December 2021. Genève: Organisation mondiale de la Santé; 2022 ( https://iris.who.int/handle/10665/363591 , consulté en juin 2025).",
+      "page": 13,
+      "level": "H3",
+      "importance_score": 0.42137427463082033
+    },
+    {
+      "document": "WHO_1.pdf",
+      "refined_text": "in Ethiopia, the country with the largest population at risk. Of the 18 countries in which antibiotics were used against trachoma in 2024, 17 reported gender-disaggre- gated data, representing information on >99.9% of all people treated with antibiotics for trachoma elimina- tion worldwide. Where gender-disaggregated data were provided, 52% of treated individuals were female. Implementation of the S and A components of the SAFE strategy is more uniform and considerably easier to measure and report than that of the F and E compo- nents, which are context-specific and generally des fins d’élimination du trachome (selon des modalités autres que l’AMM). Dans la majorité des cas, l’antibiothérapie consis- tait en l’administration de doses d’azithromycine qui avaient été données par Pfizer Inc. (New York, États-Unis d’Amérique) aux pays d’endémie, par l’intermédiaire de l’Initiative interna- tionale contre le trachome. Environ 73% des traitements admi- nistrés en 2024 concernaient l’Éthiopie, pays où la population à risque est la plus nombreuse. Sur les 18 pays où des antibio- tiques ont été utilisés pour traiter le trachome en 2024, 17 ont transmis des données ventilées selon le sexe, représentant >99,9% de toutes les personnes ayant bénéficié d’une antibio- thérapie aux fins de l’élimination du trachome dans le monde. Dans les zones pour lesquelles des données ventilées selon le sexe ont été communiquées, 52% des personnes traitées étaient de sexe féminin. La mise en œuvre des composantes CH et A de la stratégie CHANCE est plus uniforme et nettement plus facile à mesurer que celle des composantes N et CE, qui dépendent du contexte et qui sont généralement proposées dans le cadre d’interventions Figure 1 Number of districts by prevalence of the sign “trachomatous inflammation—follicular” (TF) in children aged 1–9 years, worldwide, 2015–2025 Figure 1 Nombre de districts par niveau de prévalence de l’inflammation trachomateuse folliculaire (TF), signe de trachome évolutif, chez les enfants âgés de 1-9 ans, monde entier, 2015-2025 In each year, the TF prevalence estimate valid for each district on 1 January has been used. To allow comparability across years despite progressive changes in district boundaries, which are overwhelmingly due to administrative splits, boundaries as defined on 10 June 2025 have been retroactively applied to previous prevalence maps, with prevalence estimates generated across what are now multiple contiguous 2015-districts assigned to each of those districts at the relevant time point. For this reason, and because the analysis is for 1 Ja- nuary in each year of observation, district counts here will be different to those reported elsewhere, including in previous issues of the Weekly Epidemiological Record ; the purpose of this figure is to show trends over time. The 2015–2016 increase in the total number of districts with TF prevalence ≥5% is due to completion of baseline surveys in previously suspected-endemic districts within the Global Trachoma Mapping Project. – Pour chaque année, l’estimation de la prévalence de la TF valable au 1er janvier dans chaque district a été utilisée. Pour permettre la comparaison d’une année sur l’autre malgré la modification progressive des limites des districts, essentiellement due à des fractionnements administratifs, les limites définies au 10 juin 2025 ont été appliquées rétroactivement aux cartes de prévalence précédentes, avec des estimations de prévalence générées pour des districts désormais multiples et contigus de 2015 affectés à chacun de ces districts à la date concernée. Pour cette raison, et parce que l’analyse se rapporte à la situation au 1er janvier de chaque année d’observation, les nombres de districts indiqués ici seront différents de ceux rapportés ailleurs, y compris dans les numéros précédents du Relevé épidémiologique hebdomadaire ; le but de cette figure est d’illustrer les tendances au fil du temps. L’augmentation entre 2015 et 2016 du nombre total de districts affichant une prévalence de la TF ≥5% s’explique par la réalisation d’enquêtes de référence dans des districts où une endémie était jusqu’alors suspectée dans le cadre du Projet mondial de cartographie du trachome. 373 468 491 466 399 439 384 347 330 352 308 780 794 736 625 573 509 512 463 481 479 489 476 442 421 392 335 299 264 205 158 103 85 200 400 600 800 1'000 1'200 1'400 1'600 1'800 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 Number of districts – Nombre de districts Years – Années 5–9.9% 10–29.9% ≥30% Delea MG et al. Interventions to maximize facial cleanliness and achieve environ- mental improvement for trachoma elimination: A review of the grey literature. PLoS Negl Trop Dis. 2018;12:e0006178. doi:10.1371/journal.pntd.0006178. Delea MG et al. Interventions to maximize facial cleanliness and achieve environmental impro- vement for trachoma elimination: A review of the grey literature. PLoS Negl Trop Dis. 2018;12:e0006178. doi:10.1371/journal.pntd.0006178.",
+      "page": 14,
+      "level": "H3",
+      "importance_score": 0.42111188930486565
+    },
+    {
+      "document": "WHO_2.pdf",
+      "refined_text": "One classic example of an extreme weather condition is thunderstorm-induced asthma. While the exact mechanism of thunderstorm asthma is debated, it is hypothesized that pollen particles are split into smaller particles during thunderstorm conditions enabling them to reach deeper into the airways causing acute asthma symptoms in those who normally have only mild allergic rhinitis (see fig. below). Smaller particles can also be easily carried at greater distances thus affecting a larger population. First described nearly 40 years ago, this phenomenon is being reported almost yearly in Australia, China, Europe, the Middle East and North America (24, 25). Overcrowding in emergency rooms of epidemic proportions have been reported during thunderstorm asthma. As a thunderstorm intensifies, pollen is lifed into the clouds The downdraf flow of air from the storm brings allergen particles down to ground level, where they are more easily inhaled by people The fine pollen particles and aerosol biological particles can penetrate deep into the lungs This process increases exposure to allergens, triggering asthma symptoms in susceptible individuals Within the developing storm, pollen grains rupture into smaller particles Strong storm winds carry the tiny pollen fragments over long distances Person with asthma or hay fever Flowery grasses Source: Adapted from Luschkova et al.; 2022 (26) Health effects of pollen exposure driven by air pollution and climate change Increased pollen concentrations and longer pollen seasons, influenced by air pollution and climate change, lead to greater allergic sensitization and more asthma episodes (11) (Fig. 1). Studies show that air pollution increases the ability of pollen to increase inflammation (19). Allergens such as pollen can bind to PM 2.5 and increase inflammatory reactions (27, 28). Also, pollutants can change pollen structure, protein and lipid content, and timing of pollen release, all of which can influence allergenicity (29). Further, pollutants such as PM 2.5 and ground-level ozone also irritate the airways and make asthma worse (30).",
+      "page": 4,
+      "level": "H2",
+      "importance_score": 0.42000000000000004
+    },
+    {
+      "document": "WHO_1.pdf",
+      "refined_text": "infection and facial cleanliness and environmental improvement (particularly improved access to water and sanitation) to reduce C. trachomatis transmission. Surgery should be offered to any individ- ual with TT considered likely to benefit from an oper- ation; the S component of the SAFE strategy is a public health intervention, including active case-finding if necessary, which is recommended when the prevalence of TT “unknown to the health system” is ≥0.2% among people aged ≥15 years. The A, F and E components of SAFE are recommended for districts (usually with populations of 100 000–250 000) in which the prevalence of the active trachoma sign “trachomatous inflamma- tion–follicular” (TF) is ≥5% in children aged 1–9 years. In those districts, all residents should usually be offered antibiotic treatment annually, the planned number of rounds depending on the most recent estimate of TF prevalence. The criteria for elimination of trachoma as a public health problem are: (i) a prevalence of TT unknown to the health system of <0.2% among people aged ≥15 years and (ii) a prevalence of TF of <5% among children aged 1–9 years in each formerly endemic district, plus (iii) evidence that the health system can continue to identify and manage incident cases of TT. Requirements for these interventions are determined by population-based prevalence surveys in districts suspected of being endemic. Surveys are repeated at specified intervals after initiation of interventions. In particular, it is recommended that impact surveys be undertaken at least 6 months after the last planned annual round of antibiotic mass drug administration (MDA), in order to determine whether treatment should be continued or can safely be stopped. This report summarizes application of the SAFE strat- egy against trachoma during 2024. It includes estimates of the global population at risk of trachoma blindness based on district-by-district data submitted to WHO by national programmes. Summarizing the epidemiologi- cal situation in this way is inherently complex because, for any district, up to 3 serial estimates of prevalence Trichiasis surgery for trachoma (3rd ed). Geneva: World Health Organization; 2024 https://iris.who.int/handle/10665/376633 , accessed June 2025). “Known” cases are cases of trichiasis in eyes that have already had surgery for trichiasis, for which surgery has been refused or are present in individuals for whom a surgical date has been set. Solomon AW et al. The simplified trachoma grading system, amended. Bull World Health Organ. 2020;98(10):698-705. doi:10.2471/blt.19.248708. Solomon AW et al. Trachoma. Nat Rev Dis Primers. 2022;8(1):32. doi:10.1038/ s41572-022-00359-5. Validation of elimination of trachoma as a public health problem (WHO/HTM/ NTD/2016.8). Geneva: World Health Organization; 2016 ( https://apps.who.int/iris/ handle/10665/208901 , accessed June 2025). World Health Organization Strategic and Technical Advisory Group on Neglected Tropical Diseases. Technical consultation on trachoma surveillance. Task Force for Global Health, 11–12 September 2014, Decatur (GA), USA (WHO/HTM/ NTD/2015.02). Geneva: World Health Organization; 2015 ( https://apps.who.int/iris/ handle/10665/174085 , accessed June 2025). Le trachome peut être éliminé en tant que problème de santé publique grâce à un ensemble d’interventions désignées sous le nom de «stratégie CHANCE», reposant sur la chirurgie du trichiasis trachomateux (CH), l’antibiothérapie pour éliminer l’infection oculaire à C. trachomatis (A), le nettoyage du visage (N) et le changement de l’environnement (CE, en particulier un meilleur accès à l’eau et aux moyens d’assainissement) pour réduire la transmission de C. trachomatis . La chirurgie doit être proposée à toutes les personnes atteintes de TT chez lesquelles on considère qu’elle pourrait être bénéfique; cette composante CH de la stratégie CHANCE, accompagnée d’une recherche active des cas si nécessaire, est une intervention de santé publique qui est recommandée lorsque la prévalence des cas de TT «inconnus du système de santé» est ≥0,2% parmi les personnes âgées de ≥15 ans. Les composantes A, N et CE sont recommandées dans les districts (avec une population généra- lement comprise entre 100 000 et 250 000 personnes) où la préva- lence de l’inflammation trachomateuse folliculaire (TF), signe d’un trachome évolutif, est ≥5% chez les enfants âgés de 1-9 ans. Tous les habitants de ces districts devraient généralement se voir proposer un traitement antibiotique chaque année, le nombre de tournées à prévoir dépendant de l’estimation la plus récente de la prévalence de la TF. Les critères d’élimination du trachome en tant que problème de santé publique sont les suivants: i) une prévalence des cas de TT «inconnus du système de santé» <0,2% parmi les personnes âgées de ≥15 ans; ii) une prévalence de la TF <5% parmi les enfants âgés de 1-9 ans dans chaque district où la maladie était auparavant endémique; et iii) des preuves que le système de santé restera en mesure de détecter et de prendre en charge les cas incidents de TT. La nécessité de mener ces interventions est déterminée à partir d’enquêtes de prévalence en population réalisées dans les districts où l’on soupçonne que la maladie est endémique. Ces enquêtes sont répétées à des intervalles déterminés après le début des interventions. Il est recommandé en particulier d’en- treprendre des études d’impact au moins 6 mois après la dernière tournée annuelle prévue d’administration de masse de médicaments antibiotiques (AMM) afin de déterminer si le trai- tement doit être poursuivi ou s’il peut être arrêté sans danger. Le présent rapport fait le point sur la mise en œuvre de la stratégie CHANCE contre le trachome en 2024. Il fournit des estimations du nombre de personnes exposées à un risque de cécité due au trachome dans le monde, d’après les données que les programmes nationaux ont transmises à l’OMS pour chaque district. Il est par nature difficile de faire un bilan de la situa- tion épidémiologique de cette façon car, pour un district donné, Trichiasis surgery for trachoma (3rd ed). Genève: Organisation mondiale de la Santé; 2024 https://iris.who.int/handle/10665/376633 , consulté en juin 2025). Les cas «connus» sont ceux qui ont déjà bénéficié d’une intervention chirurgicale pour le trichiasis, ceux pour lesquels l’intervention a été refusée ou ceux qui sont en attente d’une intervention dont la date a été fixée. Solomon AW et al. The simplified trachoma grading system, amended. Bull World Health Organ. 2020;98(10):698-705. doi:10.2471/blt.19.248708. Solomon AW et al. Trachoma. Nat Rev Dis Primers. 2022;8(1):32. doi:10.1038/s41572-022- 00359-5. Validation of elimination of trachoma as a public health problem (WHO/HTM/NTD/2016.8). Genève: Organisation mondiale de la Santé; 2016 ( https://apps.who.int/iris/han- dle/10665/208901 , consulté en juin 2025). World Health Organization Strategic and Technical Advisory Group on Neglected Tropical Diseases. Technical consultation on trachoma surveillance. Task Force for Global Health, 11–12 September 2014, Decatur (GA), USA (WHO/HTM/NTD/2015.02). Genève: Organisation mondiale de la Santé; 2015 ( https://apps.who.int/iris/handle/10665/174085 , consulté en juin 2025).",
+      "page": 1,
+      "level": "H2",
+      "importance_score": 0.41872420812804756
+    },
+    {
+      "document": "WHO_1.pdf",
+      "refined_text": "In 2024, a total of 46.7 million doses of antibiotics were En 2024, 46,7 millions de doses d’antibiotiques ont été distri-",
+      "page": 13,
+      "level": "H3",
+      "importance_score": 0.41566666666666674
+    },
+    {
+      "document": "WHO_1.pdf",
+      "refined_text": "); these figures were used as the denominators for calculating intervention cover- age. To provide the most up-to-date snapshot of prog- ress towards global elimination of trachoma as a public health problem, summaries based on district-level prev- alence estimates held in the GET2020 database as of 21 April 2025 are also included ( Table 1 ). The point-prev- alence snapshot for 21 April 2025 can be compared with that of 15 April 2024. National status of trachoma As of 17 July 2025, elimination of trachoma as a public health problem has been validated by WHO in 25  countries (Benin, Burundi, Cambodia, China, Gambia, Ghana, India, Iraq, Islamic Republic of Iran, Lao People’s Democratic Republic, Malawi, Mali, Mauritania, Mexico, Morocco, Myanmar, Nepal, Oman, Pakistan, Papua New Guinea, Saudi Arabia, Senegal, Togo, Vanuatu and Viet Nam). A further 6 countries (Botswana, Fiji, Guinea-Bissau, Libya, Namibia and Tunisia) report having achieved the prevalence targets for elimination ( Table 1, Map 1 ). Other countries that are considered not to require interventions are not listed in Table 1 , including those that have no recent history of trachoma (such as all the countries in the WHO European Region) and those that have recently been investigated (such as Congo ). As of 21 April 2025, based on the most recent district- level prevalence data in the GET2020 database, trachoma was a public health problem in at least part of 32 countries. A further 3 countries may require interventions, but the necessary investigations in suspected trachoma-endemic areas have not yet been completed. Efforts are being made to undertake those investigations. Populations that require interventions On 21 April 2025, the prevalence of TT unknown to the health system was ≥0.2% among people aged ≥15 years in 1647 districts worldwide. Building on previous work jusqu’à 3 estimations successives de la prévalence peuvent être valables à des moments différents d’une même année civile. Lorsqu’elles sont communiquées de manière isolée, les estima- tions de la prévalence de la TF tirées des études d’impact réali- sées après l’antibiothérapie (mais au cours de la même année civile) risquent: i) d’être interprétées comme indiquant que le traitement précédent n’était pas justifié et ii) de donner des erreurs de «division par zéro» dans les calculs de la couverture antibiotique par rapport aux besoins. Pour éviter ces problèmes, pour chaque district, l’estimation la plus élevée de la prévalence de la TF au cours de l’année civile (indépendamment du moment dans l’année où cette estimation était valable) a été utilisée pour générer des estimations glissantes des pics de prévalence sur la période allant du 1 janvier au 31 décembre 2024 ( Tableau 1 ); ces chiffres ont servi de dénominateurs pour le calcul de la couverture des interventions. Afin de fournir un aperçu aussi récent que possible des progrès réalisés vers l’éli- mination mondiale du trachome en tant que problème de santé publique, un récapitulatif des estimations au 21 avril 2025 de la prévalence dans les districts, tirées de la base de données GET 2020, est également présenté ( Tableau 1 ). La prévalence ponctuelle au 21 avril 2025 peut être comparée à celle du 15 avril 2024. Situation du trachome dans les pays Au 17 juillet 2025, l’élimination du trachome en tant que problème de santé publique avait été validée par l’OMS dans 25 pays (Arabie saoudite, Bénin, Burundi, Cambodge, Chine, Gambie, Ghana, Inde, Iraq, Malawi, Mali, Maroc, Mauritanie, Mexique, Myanmar, Népal, Oman, Pakistan, Papouasie-Nouvelle-Guinée, République démocratique populaire lao, République islamique d’Iran, Sénégal, Togo, Vanuatu et Viet Nam). Six autres pays (Botswana, Fidji, Guinée-Bissau, Libye, Namibie et Tunisie) ont indiqué avoir atteint les cibles de prévalence fixées pour l’élimination Tableau 1, Carte 1 ). Les pays dans lesquels on estime qu’il n’est pas nécessaire d’intervenir ne sont pas répertoriés dans le Tableau 1 , notamment ceux qui n’ont pas d’antécé- dents récents de trachome (comme tous les pays de la Région européenne de l’OMS) et ceux qui ont fait l’objet d’une enquête récente (comme le Congo ). Au 21 avril 2025, le nombre de pays où le trachome était un problème de santé publique sur une partie au moins du terri- toire s’établissait à 32, d’après les données de prévalence par district les plus récentes contenues dans la base de données GET2020. Trois autres pays pourraient nécessiter des interven- tions, mais les enquêtes requises dans les zones d’endémie présumées n’ont pas encore été menées à bien. Des efforts sont en cours pour réaliser ces enquêtes. Populations nécessitant des interventions Au 21 avril 2025, la prévalence des cas de TT «inconnus du système de santé» parmi les personnes âgées de ≥15 ans était ≥0.2% dans 1647 districts dans le monde. En s’appuyant sur les WHO Alliance for the Global Elimination of Trachoma by 2020. Geneva: World Health Organization; 1993 ( https://www.who.int/initiatives/who-alliance-for-the- global-elimination-of-trachoma-by-2020# , accessed June 2025). See No. 28, 2024, pp. 363–380 Missamou F et al. A population-based trachoma prevalence survey covering seven districts of Sangha and Likouala departments, Republic of the Congo. Ophthalmic Epidemiol. 2018;25(supp1):155–61. doi:10.1080/09286586.2018.1546878. WHO Alliance for the Global Elimination of Trachoma by 2020. Genève: Organisation mondiale de la Santé; 1993 ( https://www.who.int/initiatives/who-alliance-for-the-global-elimination-of- trachoma-by-2020# , consulté en juin 2025). Voir N 28, 2024, pp. 363-380 Missamou F et al. A population-based trachoma prevalence survey covering seven districts of Sangha and Likouala departments, Republic of the Congo. Ophthalmic Epidemiol. 2018;25(supp1):155–61. doi:10.1080/09286586.2018.1546878.",
+      "page": 2,
+      "level": "H2",
+      "importance_score": 0.415609289333575
+    },
+    {
+      "document": "WHO_1.pdf",
+      "refined_text": "Table 1, Map 1 Tableau 1, Carte 1",
+      "page": 2,
+      "level": "H2",
+      "importance_score": 0.4155
+    }
+  ],
+  "document_summaries": [
+    {
+      "name": "WHO_1.pdf",
+      "path": "/app/input/WHO_1.pdf",
+      "title": "",
+      "total_headings": 28,
+      "processing_time": 1.3151981830596924,
+      "confidence_score": 0.5,
+      "document_type": "technical"
+    },
+    {
+      "name": "WHO_2.pdf",
+      "path": "/app/input/WHO_2.pdf",
+      "title": "Technical brief",
+      "total_headings": 66,
+      "processing_time": 0.7259869575500488,
+      "confidence_score": 0.5,
+      "document_type": "academic"
+    },
+    {
+      "name": "WHO_3.pdf",
+      "path": "/app/input/WHO_3.pdf",
+      "title": "Technical brief",
+      "total_headings": 25,
+      "processing_time": 0.4290339946746826,
+      "confidence_score": 0.5,
+      "document_type": "academic"
+    }
+  ],
+  "dynamic_personas": [
+    "Dans",
+    "Romanello M",
+    "Br J Oph-\nthalmol"
+  ],
+  "dynamic_jobs": [
+    "d’azithromycine Inc."
+  ]
+}

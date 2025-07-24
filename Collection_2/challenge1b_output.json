@@ -1,0 +1,83 @@
+{
+    "metadata": {
+        "input_documents": [
+            "Learn Acrobat - Create and Convert_1.pdf",
+            "Learn Acrobat - Create and Convert_2.pdf",
+            "Learn Acrobat - Edit_1.pdf",
+            "Learn Acrobat - Edit_2.pdf",
+            "Learn Acrobat - Export_1.pdf",
+            "Learn Acrobat - Export_2.pdf",
+            "Learn Acrobat - Fill and Sign.pdf",
+            "Learn Acrobat - Generative AI_1.pdf",
+            "Learn Acrobat - Generative AI_2.pdf",
+            "Learn Acrobat - Request e-signatures_1.pdf",
+            "Learn Acrobat - Request e-signatures_2.pdf",
+            "Learn Acrobat - Share_1.pdf",
+            "Learn Acrobat - Share_2.pdf",
+            "Test Your Acrobat Exporting Skills.pdf",
+            "The Ultimate PDF Sharing Checklist.pdf"
+        ],
+        "persona": "Tile",
+        "job_to_be_done": "select Tile",
+        "processing_timestamp": "2025-07-24T16:52:22.955544Z"
+    },
+    "extracted_sections": [
+        {
+            "document": "Learn Acrobat - Export_1.pdf",
+            "section_title": "Tile Size:",
+            "importance_rank": 1,
+            "page_number": 7
+        },
+        {
+            "document": "Learn Acrobat - Edit_2.pdf",
+            "section_title": "Move or copy a page",
+            "importance_rank": 2,
+            "page_number": 7
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "section_title": "Method 3",
+            "importance_rank": 3,
+            "page_number": 4
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "section_title": "Method 1: From the top tools bar, select",
+            "importance_rank": 4,
+            "page_number": 2
+        },
+        {
+            "document": "Learn Acrobat - Edit_2.pdf",
+            "section_title": "PAGE OPTIONS",
+            "importance_rank": 5,
+            "page_number": 3
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "refined_text": "Convert to Adobe PDF",
+            "page_number": 1
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "refined_text": "Create . Then, select Scanner as the file type, select the scanner, and follow through the steps or browse to locate a pre-scanned page. Or, select the hamburger menu (Windows) or the File menu (macOS) > Create from scanner and follow through the workflow. Microsoft Oﬃce documents Method 1 (Windows only): From the authoring application toolbar, select Adobe Acrobat Create and Share Adobe PDF Method 2 (Windows only): Open the file in its source application and then go to Print Adobe PDF printer Method 3 (Windows only): Right-click on the file and select Convert to Adobe PDF Method 4: Drag and drop the file from your system to the Acrobat Home page. Method 5 (macOS only): From the authoring application, select File Print PDF Save as Adobe PDF Email messages",
+            "page_number": 2
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "refined_text": "Notes, select Acrobat PDFMaker or select Adobe PDF menu options (Outlook) or the Actions menu (Lotus Notes). Method 2 (Windows only): From the email application, go to Print Adobe PDF Create a PDF (not a PDF Portfolio). Method 3 (Outlook 2010 or later): From the email folder or selection of messages, right-click and then select Convert to Adobe PDF",
+            "page_number": 2
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "refined_text": "toolbar, select Adobe Acrobat Create and Share Adobe PDF Method 2 (Windows only): Open the file in its source application and then go to Print Adobe PDF printer Method 3 (Windows only): Right-click on the file and select Convert to Adobe PDF Method 4: Drag and drop the file from your system to the Acrobat Home page. Method 5 (macOS only): From the authoring application, select File Print PDF Save as Adobe PDF Email messages Method 1 (Windows only): Within Microsoft Outlook or Lotus Notes, select Acrobat PDFMaker or select Adobe PDF menu options (Outlook) or the Actions menu (Lotus Notes). Method 2 (Windows only): From the email application, go to Print Adobe PDF Create a PDF (not a PDF Portfolio). Method 3 (Outlook 2010 or later): From the email folder or selection of messages, right-click and then select Convert to Adobe PDF",
+            "page_number": 2
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "refined_text": "Adobe PDF. Method 4: From the top-right corner of the webpage, select Print Adobe PDF Content copied on the clipboard Method 1: From the top tools bar, select Create . Then, select Clipboard as the file type and follow through the steps. Or, select the hamburger menu (Windows) or the File menu (macOS) > Create PDF from clipboard and follow through the workflow. AutoCAD files (Acrobat Pro for Windows only) Method 1: From the top tools bar, select Create and then select the file. Or, select the hamburger menu (Windows) or the File menu (macOS) > Create PDF from file and follow through the workflow. Method 2: Drag and drop the HTML file from your system to the Acrobat Home page. Method 3: Right-click the file and select Convert to Adobe PDF Method 4: Within AutoCAD, go to Print Adobe PDF",
+            "page_number": 3
+        }
+    ]
+}
