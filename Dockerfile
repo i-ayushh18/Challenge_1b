@@ -1,22 +1,41 @@
-FROM python:3.10-slim
+FROM --platform=linux/amd64 python:3.10-slim
 
 WORKDIR /app
 
-RUN apt-get update && apt-get install -y git tesseract-ocr && rm -rf /var/lib/apt/lists/*
+# Install system dependencies with retry logic
+RUN apt-get update --fix-missing && \
+    apt-get install -y --no-install-recommends \
+    tesseract-ocr \
+    tesseract-ocr-eng \
+    g++ \
+    make \
+    && rm -rf /var/lib/apt/lists/*
 
+# Create and activate virtual environment
+RUN python -m venv /venv
+ENV PATH="/venv/bin:$PATH"
+
+# Upgrade pip and setuptools
+RUN pip install --upgrade pip setuptools wheel
+
+# Copy requirements and install Python dependencies
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir --prefer-binary -r requirements.txt
 
-COPY docker_entrypoint.sh /app/
-RUN chmod +x /app/docker_entrypoint.sh
-
+# Download and install language models during build
 RUN python -m spacy download en_core_web_sm
-RUN echo "spaCy model size:" && du -sh /usr/local/lib/python3.10/site-packages/en_core_web_sm*
-
 ENV NLTK_DATA=/usr/local/nltk_data
-RUN mkdir -p /usr/local/nltk_data
-RUN python -m nltk.downloader -d /usr/local/nltk_data punkt
+RUN mkdir -p /usr/local/nltk_data && \
+    python -m nltk.downloader -d /usr/local/nltk_data punkt
 
+# Copy the application code
 COPY . .
 
-ENTRYPOINT ["/app/docker_entrypoint.sh"]
+# Ensure the entrypoint script has Unix line endings and is executable
+RUN if [ -f /app/docker_entrypoint.sh ]; then \
+        sed -i 's/\r$//' /app/docker_entrypoint.sh && \
+        chmod +x /app/docker_entrypoint.sh; \
+    fi
+
+# Set the entrypoint
+ENTRYPOINT ["/bin/bash", "-c", "if [ -f /app/docker_entrypoint.sh ]; then exec /app/docker_entrypoint.sh \"$@\"; else echo 'Error: docker_entrypoint.sh not found!'; exit 1; fi", "--"]
