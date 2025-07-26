@@ -11,11 +11,11 @@
     ],
     "persona": "Villa La Coste",
     "job_to_be_done": "set in",
-    "processing_timestamp": "2025-07-24T16:51:13.667305Z",
+    "processing_timestamp": "2025-07-26T14:04:33.749038Z",
     "total_sections_found": 218,
     "sections_after_filtering": 218,
     "ranking_strategy": "enhanced_ranking",
-    "processing_time_seconds": 2.280122,
+    "processing_time_seconds": 2.940102,
     "max_results": 15
   },
   "extracted_sections": [
@@ -358,7 +358,7 @@
       "path": "/app/input/South of France - Cities.pdf",
       "title": "Introduction",
       "total_headings": 22,
-      "processing_time": 0.23848342895507812,
+      "processing_time": 0.29741382598876953,
       "confidence_score": 0.5,
       "document_type": "technical"
     },
@@ -367,7 +367,7 @@
       "path": "/app/input/South of France - Cuisine.pdf",
       "title": "Introduction",
       "total_headings": 7,
-      "processing_time": 0.14762091636657715,
+      "processing_time": 0.19977998733520508,
       "confidence_score": 0.5,
       "document_type": "document"
     },
@@ -376,7 +376,7 @@
       "path": "/app/input/South of France - History.pdf",
       "title": "Introduction",
       "total_headings": 24,
-      "processing_time": 0.20507144927978516,
+      "processing_time": 0.2205955982208252,
       "confidence_score": 0.5,
       "document_type": "technical"
     },
@@ -385,7 +385,7 @@
       "path": "/app/input/South of France - Restaurants and Hotels.pdf",
       "title": "Introduction",
       "total_headings": 7,
-      "processing_time": 0.20270943641662598,
+      "processing_time": 0.24753642082214355,
       "confidence_score": 0.5,
       "document_type": "document"
     },
@@ -394,7 +394,7 @@
       "path": "/app/input/South of France - Things to Do.pdf",
       "title": "Introduction",
       "total_headings": 68,
-      "processing_time": 0.19771862030029297,
+      "processing_time": 0.3378429412841797,
       "confidence_score": 0.5,
       "document_type": "technical"
     },
@@ -403,7 +403,7 @@
       "path": "/app/input/South of France - Tips and Tricks.pdf",
       "title": "Introduction",
       "total_headings": 65,
-      "processing_time": 0.17382431030273438,
+      "processing_time": 0.19710135459899902,
       "confidence_score": 0.5,
       "document_type": "document"
     },
@@ -412,19 +412,19 @@
       "path": "/app/input/South of France - Traditions and Culture.pdf",
       "title": "Introduction",
       "total_headings": 25,
-      "processing_time": 0.11644554138183594,
+      "processing_time": 0.12953639030456543,
       "confidence_score": 0.5,
       "document_type": "document"
     }
   ],
   "dynamic_personas": [
     "Villa La Coste",
-    "Crafts \nPottery and Ceramics",
-    "them"
+    "them",
+    "The elegant setting"
   ],
   "dynamic_jobs": [
     "set in",
-    "has tradition with",
-    "Keep them"
+    "Keep them",
+    "make"
   ]
 }
